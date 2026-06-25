@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import playwright; print\\('playwright installed'\\)\")",
+      "Bash(python3 -c \"from playwright.sync_api import sync_playwright; p=sync_playwright\\(\\).start\\(\\); b=p.chromium.launch\\(\\); print\\('chromium OK'\\); b.close\\(\\); p.stop\\(\\)\")",
+      "Bash(mkdir -p recon screenshots)",
+      "Bash(printf \"config.yaml\\\\nscreenshots/\\\\nrecon/\\\\n__pycache__/\\\\n*.pyc\\\\nauth_state.json\\\\n\")",
+      "Bash(python3 recon/probe_login.py)",
+      "Bash(python3 recon/probe_form.py)",
+      "Bash(curl -s \"https://rioc.civicpermits.com/Content/JavaScript/DateForm.js?v=6912\" -o recon/DateForm.js)",
+      "Bash(grep -n -iE \"\\\\\\\\\\\\$.ajax|\\\\\\\\\\\\$.post|\\\\\\\\\\\\$.get|\\\\.submit\\\\\\(|addFacility.*submit|getJSON|Permits/|Conflict|EventDates|JSON.stringify\" recon/DateForm.js)",
+      "Bash(sed -n '690,778p' recon/DateForm.js)",
+      "Bash(sed -n '844,880p' recon/DateForm.js)",
+      "Bash(sed -n '880,900p' recon/DateForm.js)",
+      "Bash(sed -n '1004,1027p' recon/DateForm.js)",
+      "Bash(python3 *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Initial commit: tennis court availability scanner *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)"
+    ]
+  }
+}
