@@ -129,17 +129,16 @@ def ensure_session(p):
 
 
 def scan_once(api):
-    """扫描配置里的日期，返回空闲集合 {(date,court,'HH:MM-HH:MM')} 并打印网格。"""
+    """扫描配置里的日期，返回空闲列表 [{"date","court","start","end"}] 并打印网格、存 JSON。"""
     s = cfg["scan"]
     courts = s["courts"]
     facmap = {c: get_facility(api, c) for c in courts}
-    req_count = len(courts)  # facility 调用
-    free_set = set()
+    req_count = len(courts)
+    free_list = []
 
     for date_str in resolve_dates():
         wd = datetime.strptime(date_str, "%Y-%m-%d").strftime("%a")
         slots = slots_for(date_str, s["start_hour"], s["end_hour"], s["slot_minutes"])
-        # 每个 court 一次请求
         court_taken = {}
         for c in courts:
             name, fid = facmap[c]
@@ -150,7 +149,6 @@ def scan_once(api):
         header = "时间段".ljust(15) + "".join(f"C{c}".center(6) for c in courts)
         print(header)
         print("-" * (15 + 6 * len(courts)))
-        rows_with_free = 0
         for i, (st, en) in enumerate(slots):
             label = f"{st:%H:%M}-{en:%H:%M}".ljust(15)
             cells, has_free = [], False
@@ -163,18 +161,26 @@ def scan_once(api):
                 else:
                     cells.append(f"{GREEN}  ✓  {RESET}")
                     has_free = True
-                    free_set.add((date_str, c, f"{st:%H:%M}-{en:%H:%M}"))
+                    free_list.append({
+                        "date": date_str,
+                        "court": c,
+                        "start": f"{st:%H:%M}",
+                        "end": f"{en:%H:%M}",
+                    })
             if not s.get("only_free") or has_free:
                 print(label + "".join(cells))
-                rows_with_free += 1
 
-    print(f"\n{GREEN}{BOLD}空闲共 {len(free_set)} 个时段{RESET}  "
+    print(f"\n{GREEN}{BOLD}空闲共 {len(free_list)} 个时段{RESET}  "
           f"{DIM}(本次 {req_count} 个请求){RESET}")
-    for date_str, c, slot in sorted(free_set):
-        print(f"  • {date_str}  Court {c}  {slot}")
-    if not free_set:
+    if not free_list:
         print("  (无空闲)")
-    return free_set
+
+    # 保存到 data.json
+    (ROOT / "data.json").write_text(json.dumps({
+        "timestamp": datetime.now().isoformat(),
+        "available": free_list,
+    }, ensure_ascii=False, indent=2))
+    return free_list
 
 
 def notify_mac(title, msg):
@@ -188,6 +194,23 @@ def notify_mac(title, msg):
     print("\a", end="")  # 终端响铃
 
 
+def notify_wechat(title, content):
+    """通过 PushPlus 发送微信通知。"""
+    token = cfg.get("notify", {}).get("pushplus_token")
+    if not token:
+        return
+    try:
+        import requests
+        payload = {
+            "token": token,
+            "title": title,
+            "content": content,
+        }
+        requests.post("https://www.pushplus.plus/send", json=payload, timeout=5)
+    except Exception as e:
+        print(f"{RED}WeChat 通知失败: {e}{RESET}")
+
+
 def watch():
     interval = cfg.get("watch", {}).get("interval_minutes", 60)
     notify = cfg.get("watch", {}).get("notify_on_new", True)
@@ -198,18 +221,21 @@ def watch():
             now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             print(f"\n{BOLD}[{now}] 扫描中…{RESET}")
             try:
-                cur = scan_once(api)
+                cur_list = scan_once(api)
             except Exception as e:
                 print(f"{RED}扫描出错，重建会话：{e}{RESET}")
                 api.dispose()
                 api = ensure_session(p)
                 continue
+            # 转换为集合便于比较（使用 (date, court, start-end) 元组）
+            cur = set((item["date"], item["court"], f"{item['start']}-{item['end']}") for item in cur_list)
             new = cur - prev
-            if new and prev:  # 第一次不报（全是“新”）
+            if new and prev:  # 第一次不报（全是"新"）
                 lines = "; ".join(f"C{c} {d} {s}" for d, c, s in sorted(new))
                 print(f"{GREEN}{BOLD}🎾 新空场：{lines}{RESET}")
                 if notify:
                     notify_mac("🎾 网球场新空位", lines[:200])
+                    notify_wechat("🎾 网球场新空位", lines[:200])
             prev = cur
             print(f"{DIM}{interval} 分钟后再扫… (Ctrl+C 退出){RESET}")
             time.sleep(interval * 60)
