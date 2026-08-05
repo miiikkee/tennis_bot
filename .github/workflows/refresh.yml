@@ -1,0 +1,40 @@
+name: Refresh public data
+
+# 云端每小时抓取免登录场馆（NYC Parks / CourtReserve），提交 public_data.json。
+# 登录场馆（RIOC/Prospect/Columbia）由运营方 Mac 端 push login_data.json，云端不碰密码。
+on:
+  schedule:
+    - cron: "17 * * * *"      # 每小时的第 17 分钟
+  workflow_dispatch: {}         # 支持手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Scrape public sources
+        run: python3 pipeline.py --public-only
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public_data.json
+          if git diff --staged --quiet; then
+            echo "no change"; exit 0
+          fi
+          git commit -m "chore: refresh public data [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && exit 0 || sleep 5
+          done
+          echo "push failed after retries"; exit 1

@@ -1,0 +1,26 @@
+# config.example.yaml —— 复制为 config.yaml 并填入你的账号（config.yaml 已被 .gitignore，不会提交）。
+# 只有需要抓取"登录类场馆"（RIOC / Prospect / Columbia）时才需要账号；
+# 免登录场馆（NYC Parks / CourtReserve）无需任何账号。
+
+# RIOC（Roosevelt Island permit 系统）
+account:
+  base_url: "https://rioc.civicpermits.com"
+  username: ""      # 你的 RIOC 邮箱
+  password: ""      # 你的 RIOC 密码
+
+# Prospect Park（Aptus 系统）
+prospectpark:
+  base_url: "https://prospectpark.aptussoft.com"
+  clubid: "prospectpark"
+  email: ""
+  password: ""
+  days_ahead: 3
+
+# 哥大 Columbia（Blume 系统，含价格）
+blume:
+  base_url: "https://blumecustomer.com"
+  username: ""
+  password: ""
+  days_ahead: 3
+
+# 扫描/通知等其它设置见项目文档；未填账号的场馆会自动降级为"锁定卡"（只跳转）。

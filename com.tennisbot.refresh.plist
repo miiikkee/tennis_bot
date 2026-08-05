@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tennisbot.refresh</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/lileming/Desktop/tennis_bot/refresh.sh</string>
+    </array>
+
+    <!-- 每 3600 秒（1 小时）跑一次 -->
+    <key>StartInterval</key>
+    <integer>3600</integer>
+
+    <!-- 加载时立即先跑一次 -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/lileming/Desktop/tennis_bot/logs/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/lileming/Desktop/tennis_bot/logs/launchd.err.log</string>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+</dict>
+</plist>
