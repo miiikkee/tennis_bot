@@ -190,7 +190,7 @@ def scrape_location():
             for c in court_order:
                 booked = any(es < e_end and ee > s for (es, ee) in courts_res.get(c, []))
                 grid[c][tlabel] = {"status": "booked" if booked else "available",
-                                   "href": CAL_URL if not booked else None}
+                                   "href": MAIN_URL if not booked else None}
                 if not booked:
                     avail += 1
         label = base.strftime("%A, %B %d, %Y")
@@ -204,7 +204,7 @@ def scrape_location():
         "reservation_courts": len(court_order) or None,
         "walkon_courts": None,
         "first_reservation": "—", "last_reservation": "—",
-        "url": CAL_URL,
+        "url": MAIN_URL,   # 用户跳转用门户首页；Calender 直连会报 "Please select locationid"
         "note": "Prospect Park Tennis Center（Aptus，需登录；绿色=可预订，含 Clay/Hard 场地）",
         "courts": court_order,
         "dates": dates_out,
