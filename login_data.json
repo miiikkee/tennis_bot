@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-06T02:23:21.248564-04:00",
+  "generated_at": "2026-08-06T04:00:43.197348-04:00",
   "sources": [
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-08-06T02:22:15.562732-04:00",
-      "error": null,
+      "error": "APIRequestContext.get: getaddrinfo ENOTFOUND rioc.civicpermits.com\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.730886953.1785860002; .ASPXAUTH=7758FE2A2F50D83AF6E3A03BEAE670AB2148E7D51DAE00AE886A380B63248D50B87F77BEADB22FD4B8AA1B81CC648015556A174820BB0D8FD3E623ACBD47023ABBE6B6EE22769DF97CF16C7E95761AF69BB18934C4DF02295BA9DAB6CC686C892396BE02DBC0A7C22828F7E3502C119B97749CF8BA1CE5B83636076AA69EB3C05E1122E5; _ga_7PNE7C8PW6=GS2.2.s1785860002$o1$g1$t1785860003$j59$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "stale",
-      "last_success": "2026-08-05T14:50:31.831275-04:00",
-      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
+      "status": "fresh",
+      "last_success": "2026-08-06T04:00:43.180960-04:00",
+      "error": null,
       "count": 1
     }
   ],
@@ -1257,7 +1257,7 @@
       "region": "Roosevelt Island",
       "source": "rioc",
       "updated_at": "2026-08-06T02:22:15.562732-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -1283,1163 +1283,6 @@
         "Hard: Court 4a"
       ],
       "dates": [
-        {
-          "date": "2026-08-05",
-          "label": "Wednesday, August 05, 2026",
-          "times": [
-            "6:00 AM",
-            "6:30 AM",
-            "7:00 AM",
-            "7:30 AM",
-            "8:00 AM",
-            "8:30 AM",
-            "9:00 AM",
-            "9:30 AM",
-            "10:00 AM",
-            "10:30 AM",
-            "11:00 AM",
-            "11:30 AM",
-            "12:00 PM",
-            "12:30 PM",
-            "1:00 PM",
-            "1:30 PM",
-            "2:00 PM",
-            "2:30 PM",
-            "3:00 PM",
-            "3:30 PM",
-            "4:00 PM",
-            "4:30 PM",
-            "5:00 PM",
-            "5:30 PM",
-            "6:00 PM",
-            "6:30 PM",
-            "7:00 PM",
-            "7:30 PM",
-            "8:00 PM",
-            "8:30 PM",
-            "9:00 PM",
-            "9:30 PM",
-            "10:00 PM",
-            "10:30 PM"
-          ],
-          "courts": [
-            "Clay: Court 3a",
-            "Clay: Court 2a",
-            "Clay: Court 1a",
-            "Clay: Court 4b",
-            "Clay: Court 5b",
-            "Clay: Court 6b",
-            "Hard: Court 5a",
-            "Hard: Court 4a"
-          ],
-          "grid": {
-            "Clay: Court 3a": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "5:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 2a": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "5:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 1a": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 4b": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              }
-            },
-            "Clay: Court 5b": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              }
-            },
-            "Clay: Court 6b": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              }
-            },
-            "Hard: Court 5a": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "5:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              }
-            },
-            "Hard: Court 4a": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "5:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              }
-            }
-          },
-          "available_count": 50
-        },
         {
           "date": "2026-08-06",
           "label": "Thursday, August 06, 2026",
@@ -2718,12 +1561,12 @@
                 "href": null
               },
               "5:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "5:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:00 PM": {
                 "status": "available",
@@ -3002,12 +1845,12 @@
                 "href": null
               },
               "6:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "7:00 PM": {
                 "status": "available",
@@ -3328,12 +2171,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "7:00 AM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "7:30 AM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "8:00 AM": {
                 "status": "booked",
@@ -3595,7 +2438,7 @@
               }
             }
           },
-          "available_count": 72
+          "available_count": 70
         },
         {
           "date": "2026-08-07",
@@ -4005,12 +2848,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "4:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "4:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "5:00 PM": {
                 "status": "booked",
@@ -4752,16 +3595,1041 @@
               }
             }
           },
-          "available_count": 72
+          "available_count": 74
+        },
+        {
+          "date": "2026-08-08",
+          "label": "Saturday, August 08, 2026",
+          "times": [
+            "7:00 AM",
+            "7:30 AM",
+            "8:00 AM",
+            "8:30 AM",
+            "9:00 AM",
+            "9:30 AM",
+            "10:00 AM",
+            "10:30 AM",
+            "11:00 AM",
+            "11:30 AM",
+            "12:00 PM",
+            "12:30 PM",
+            "1:00 PM",
+            "1:30 PM",
+            "2:00 PM",
+            "2:30 PM",
+            "3:00 PM",
+            "3:30 PM",
+            "4:00 PM",
+            "4:30 PM",
+            "5:00 PM",
+            "5:30 PM",
+            "6:00 PM",
+            "6:30 PM",
+            "7:00 PM",
+            "7:30 PM",
+            "8:00 PM",
+            "8:30 PM",
+            "9:00 PM",
+            "9:30 PM"
+          ],
+          "courts": [
+            "Clay: Court 3a",
+            "Clay: Court 2a",
+            "Clay: Court 1a",
+            "Clay: Court 4b",
+            "Clay: Court 5b",
+            "Clay: Court 6b",
+            "Hard: Court 5a",
+            "Hard: Court 4a"
+          ],
+          "grid": {
+            "Clay: Court 3a": {
+              "7:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "11:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "12:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "12:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            },
+            "Clay: Court 2a": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Clay: Court 1a": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Clay: Court 4b": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            },
+            "Clay: Court 5b": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            },
+            "Clay: Court 6b": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            },
+            "Hard: Court 5a": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Hard: Court 4a": {
+              "7:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "11:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "11:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "12:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "12:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            }
+          },
+          "available_count": 94
         }
       ],
-      "available_total": 194,
+      "available_total": 238,
       "book_kind": "facility",
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-08-05T14:50:31.831275-04:00",
-      "stale": true,
+      "updated_at": "2026-08-06T04:00:43.180960-04:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
