@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-08T08:50:47.069738-04:00",
+  "generated_at": "2026-08-08T11:29:46.050329-04:00",
   "sources": [
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "stale",
-      "last_success": "2026-08-08T06:00:51.826099-04:00",
-      "error": "APIRequestContext.post: Timeout 30000ms exceeded.\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.2124061238.1786063616; .ASPXAUTH=163C873F9C49CECCBE7D373FFF827CD98A4BE6A02A801AD26122C81E04300B45DF6F6D2EED4044F86E4B1AD8E9435D6004F10C131A03947F824324F67130361B3A09387BE5C3AA587331BEE7F26490E4F7ADD8077B0D4C2E9C8C24A68D01BB08FA98D96D70D4027F8EE2014B9618F51B43F89E91E41016678538800EE32C764FD482389A; _ga_7PNE7C8PW6=GS2.2.s1786063616$o1$g1$t1786063618$j58$l0$h0\n",
+      "status": "fresh",
+      "last_success": "2026-08-08T11:28:46.079253-04:00",
+      "error": null,
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-08-08T08:50:47.050979-04:00",
-      "error": null,
+      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
       "count": 1
     }
   ],
@@ -621,8 +621,8 @@
                 "href": "https://rioc.civicpermits.com"
               },
               "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "2:00 PM": {
                 "status": "available",
@@ -773,8 +773,8 @@
                 "href": null
               },
               "8:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "9:00 PM": {
                 "status": "booked",
@@ -844,7 +844,7 @@
               }
             }
           },
-          "available_count": 26
+          "available_count": 24
         },
         {
           "date": "2026-08-11",
@@ -1251,13 +1251,13 @@
           "available_count": 20
         }
       ],
-      "available_total": 46,
+      "available_total": 44,
       "book_kind": "facility",
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-08-08T06:00:51.826099-04:00",
-      "stale": true,
+      "updated_at": "2026-08-08T11:28:46.079253-04:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -4563,7 +4563,7 @@
       "region": "Brooklyn",
       "source": "prospect",
       "updated_at": "2026-08-08T08:50:47.050979-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
