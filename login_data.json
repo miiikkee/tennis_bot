@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-08T16:24:09.232322-04:00",
+  "generated_at": "2026-08-08T18:24:09.457792-04:00",
   "sources": [
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-08-08T16:23:36.104797-04:00",
-      "error": null,
+      "error": "APIRequestContext.post: read ECONNRESET\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.2124061238.1786063616; .ASPXAUTH=A21D01DEC093B2D1172CA120A1E2132D6FA6A26C57FA053A92FCED43AB062CDCC3956A02108AA50CC46CFD267611C71DCFE732AD7E9E6B00F185D9AA3BB2C558168A68D4379194C61B677A8372414DD4862DE74DD9BCF9B29D047EF98BE7219BC054ACF9D21F29515A7A753269EC57884C2A456C02973B96CC1AC13FF10948DCCBEAC905; _ga_7PNE7C8PW6=GS2.2.s1786063616$o1$g1$t1786063618$j58$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-08-08T16:24:09.221586-04:00",
+      "last_success": "2026-08-08T18:24:09.436148-04:00",
       "error": null,
       "count": 1
     }
@@ -1257,7 +1257,7 @@
       "region": "Roosevelt Island",
       "source": "rioc",
       "updated_at": "2026-08-08T16:23:36.104797-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -1316,7 +1316,9 @@
             "8:00 PM",
             "8:30 PM",
             "9:00 PM",
-            "9:30 PM"
+            "9:30 PM",
+            "10:00 PM",
+            "10:30 PM"
           ],
           "courts": [
             "Clay: Court 3a",
@@ -1449,6 +1451,14 @@
               "9:30 PM": {
                 "status": "available",
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               }
             },
             "Clay: Court 2a": {
@@ -1541,12 +1551,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "6:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "7:00 PM": {
                 "status": "booked",
@@ -1571,6 +1581,14 @@
               "9:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               }
             },
             "Clay: Court 1a": {
@@ -1655,12 +1673,12 @@
                 "href": null
               },
               "5:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "5:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:00 PM": {
                 "status": "available",
@@ -1693,6 +1711,14 @@
               "9:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               }
             },
             "Clay: Court 4b": {
@@ -1813,6 +1839,14 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 PM": {
                 "status": "available",
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               }
@@ -1937,6 +1971,14 @@
               "9:30 PM": {
                 "status": "available",
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               }
             },
             "Clay: Court 6b": {
@@ -2059,6 +2101,14 @@
               "9:30 PM": {
                 "status": "available",
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               }
             },
             "Hard: Court 5a": {
@@ -2143,12 +2193,12 @@
                 "href": null
               },
               "5:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "5:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "6:00 PM": {
                 "status": "available",
@@ -2179,6 +2229,14 @@
                 "href": null
               },
               "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
                 "status": "booked",
                 "href": null
               }
@@ -2303,10 +2361,18 @@
               "9:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               }
             }
           },
-          "available_count": 88
+          "available_count": 100
         },
         {
           "date": "2026-08-09",
@@ -4545,24 +4611,24 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "10:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               }
             }
           },
-          "available_count": 84
+          "available_count": 82
         }
       ],
-      "available_total": 266,
+      "available_total": 276,
       "book_kind": "facility",
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-08-08T16:24:09.221586-04:00",
+      "updated_at": "2026-08-08T18:24:09.436148-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
