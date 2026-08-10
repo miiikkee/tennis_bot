@@ -164,8 +164,20 @@
       else this.load();
       const poll = +this.getAttribute("poll");
       if (poll > 0) this._timer = setInterval(() => this.load(true), poll * 1000);
+      // 每 30s 让「更新于 X 分钟前」自己往上走（只刷新文字，不重新抓数据）
+      this._agoTimer = setInterval(() => this._tick(), 30000);
     }
-    disconnectedCallback() { if (this._timer) clearInterval(this._timer); }
+    disconnectedCallback() {
+      if (this._timer) clearInterval(this._timer);
+      if (this._agoTimer) clearInterval(this._agoTimer);
+    }
+
+    _tick() {
+      if (!this.state.D) return;
+      const a = this.$(".ago"); if (a) a.textContent = agoText(this.state.D.generated_at);
+      // 「按地点」视图里每个场馆的新鲜度也一起刷新
+      if (this.state.VIEW === "loc") this.render();
+    }
 
     $(s) { return this.shadowRoot.querySelector(s); }
 
@@ -384,9 +396,9 @@
       const W = 720, H = 460, pad = 40;
       const lats = all.map(l => l.lat), lngs = all.map(l => l.lng);
       const laMin = Math.min(...lats), laMax = Math.max(...lats), lgMin = Math.min(...lngs), lgMax = Math.max(...lngs);
-      const dLa = (laMax - laMin) || 0.01, dLg = (lgMax - lgMin) || 0.01;
-      const X = l => (pad + (l.lng - lgMin) / dLg * (W - 2 * pad)).toFixed(0);
-      const Y = l => (pad + (laMax - l.lat) / dLa * (H - 2 * pad)).toFixed(0);
+      const dLa = (laMax - laMin) || 0.01, dLg = (lgMax - lgMin) || 0.01, one = all.length === 1;
+      const X = l => (one ? W / 2 : pad + (l.lng - lgMin) / dLg * (W - 2 * pad)).toFixed(0);
+      const Y = l => (one ? H / 2 : pad + (laMax - l.lat) / dLa * (H - 2 * pad)).toFixed(0);
       let grid = "";
       for (let i = 1; i < 5; i++) { const gx = (W / 5 * i).toFixed(0), gy = (H / 5 * i).toFixed(0);
         grid += `<line x1="${gx}" y1="0" x2="${gx}" y2="${H}" style="stroke:var(--line)" opacity=".5"/><line x1="0" y1="${gy}" x2="${W}" y2="${gy}" style="stroke:var(--line)" opacity=".5"/>`; }
@@ -396,7 +408,7 @@
       return `<div class="grid-wrap"><svg viewBox="0 0 ${W} ${H}" class="map">${grid}${pins}</svg></div>`;
     }
     _mapSection(all) {
-      if (all.length < 2) return "";
+      if (all.length < 1) return "";
       const body = this._leafletReady ? '<div class="lmap"></div>' : this._schematicSvg(all);
       return `<div class="mapbox"><div class="maphd">🗺 场馆位置 Map <span class="rg">· 🟢 空位可见 · 🟡 需账号才能查看 · 点标记查看</span></div>${body}${this._legendHtml(all)}</div>`;
     }
@@ -421,7 +433,10 @@
         const icon = L.divIcon({ className: "", html: `<div class="lpin" style="background:${col}">${i + 1}</div>`, iconSize: [26, 26], iconAnchor: [13, 13] });
         L.marker([l.lat, l.lng], { icon }).addTo(map).bindPopup(`<b>${esc(l.name)}</b><br>${esc(l.region || "")}<br><a href="${this._gmapUrl(l)}" target="_blank" rel="noopener">Google 地图 ↗</a>`);
       });
-      try { map.fitBounds(all.map(l => [l.lat, l.lng]), { padding: [30, 30], maxZoom: 13 }); } catch (e) {}
+      try {
+        if (all.length === 1) map.setView([all[0].lat, all[0].lng], 13);
+        else map.fitBounds(all.map(l => [l.lat, l.lng]), { padding: [30, 30], maxZoom: 13 });
+      } catch (e) {}
       this._map = map;
       setTimeout(() => map.invalidateSize(), 60);
     }
@@ -451,7 +466,7 @@
           <div class="locked-actions"><a class="primary" href="${esc(l.login_url)}" target="_blank" rel="noopener">去官网登录 / 注册 ↗</a></div></div>`;
       });
       this.$(".content").innerHTML = h;
-      if (mapVenues.length >= 2) {
+      if (mapVenues.length >= 1) {
         if (this._leafletReady) this._initLeaflet(mapVenues);
         else this._ensureLeaflet().then(ok => { if (ok && this.state.VIEW === "loc") this.render(); });
       }
