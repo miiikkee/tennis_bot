@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-10T07:16:42.050364-04:00",
+  "generated_at": "2026-08-10T10:34:41.060252-04:00",
   "sources": [
     {
       "key": "rioc",
       "label": "RIOC",
       "status": "stale",
       "last_success": "2026-08-10T01:34:22.528583-04:00",
-      "error": "APIRequestContext.get: read ECONNRESET\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.434984996.1786290525; _gid=GA1.2.1949879659.1786290525; .ASPXAUTH=4FB8E2000B02F897E18DD4D04EE316D78E2A8B6E8051C7B00A5F1F90E2F46E09CDCC2941EDB0BFC865AA2D5A6B6A5961B3C8C78C6D09F97CED1834BB5B3982F9F88167F6BD5D4520C44B9234CE1043547687E4AD46D7B22A173EBC290CB050DA84E7876FF35AC6A59B26C15D28592508A4CF3CAD6D494C470D40E0472436DB786A61D852; _ga_7PNE7C8PW6=GS2.2.s1786290525$o1$g1$t1786290528$j57$l0$h0\n",
+      "error": "APIRequestContext.post: Timeout 30000ms exceeded.\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.434984996.1786290525; _gid=GA1.2.1949879659.1786290525; .ASPXAUTH=4FB8E2000B02F897E18DD4D04EE316D78E2A8B6E8051C7B00A5F1F90E2F46E09CDCC2941EDB0BFC865AA2D5A6B6A5961B3C8C78C6D09F97CED1834BB5B3982F9F88167F6BD5D4520C44B9234CE1043547687E4AD46D7B22A173EBC290CB050DA84E7876FF35AC6A59B26C15D28592508A4CF3CAD6D494C470D40E0472436DB786A61D852; _ga_7PNE7C8PW6=GS2.2.s1786290525$o1$g1$t1786290528$j57$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-08-10T07:16:42.027091-04:00",
-      "error": null,
+      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
       "count": 1
     }
   ],
@@ -4761,7 +4761,7 @@
       "region": "Brooklyn",
       "source": "prospect",
       "updated_at": "2026-08-10T07:16:42.027091-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
