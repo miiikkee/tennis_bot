@@ -258,30 +258,60 @@ def generate_login():
     return payload
 
 
-def generate(include_login=INCLUDE_LOGIN_SITES):
-    CACHE.mkdir(exist_ok=True)
-    print(f"{BOLD}数据管道：并发抓取免登录来源…{RESET}")
+def _run_public(source_keys):
+    """并发跑指定的免登录来源，返回 {key: record}（各自 last-good 兜底）。"""
+    srcs = [s for s in SOURCES if source_keys is None or s["key"] in source_keys]
     records = {}
-    with ThreadPoolExecutor(max_workers=len(SOURCES)) as ex:
-        futs = {s["key"]: ex.submit(run_source, s) for s in SOURCES}
-        for s in SOURCES:
+    with ThreadPoolExecutor(max_workers=max(1, len(srcs))) as ex:
+        futs = {s["key"]: ex.submit(run_source, s) for s in srcs}
+        for s in srcs:
             try:
                 records[s["key"]] = futs[s["key"]].result(timeout=PER_SOURCE_TIMEOUT)
-            except Exception as e:  # 超时/线程崩溃 -> last-good
+            except Exception as e:
                 cf = CACHE / f"{s['key']}.json"
                 if cf.exists():
                     prev = json.loads(cf.read_text())
-                    prev["status"] = "stale"
-                    prev["error"] = f"timeout/{e}"
+                    prev["status"] = "stale"; prev["error"] = f"timeout/{e}"
                     records[s["key"]] = prev
                     print(f"  {RED}✗ {s['label']} 超时，沿用缓存（stale）{RESET}")
                 else:
-                    records[s["key"]] = {"key": s["key"], "label": s["label"],
-                                         "status": "error", "last_success": None,
-                                         "error": str(e), "locations": []}
+                    records[s["key"]] = {"key": s["key"], "label": s["label"], "status": "error",
+                                         "last_success": None, "error": str(e), "locations": []}
+    return records, srcs
+
+
+def generate_mac():
+    """Mac 端（住宅 IP）：NYC Parks（云端会被 Akamai 405）+ 登录场馆 -> login_data.json。"""
+    CACHE.mkdir(exist_ok=True)
+    print(f"{BOLD}Mac 端：抓 NYC Parks（住宅 IP）+ 需登录场馆…{RESET}")
+    records, srcs = _run_public({"nycparks"})
+    locations, sources_status = [], []
+    for s in srcs:
+        rec = records[s["key"]]
+        kept = 0
+        for loc in rec.get("locations", []):
+            if valid_location(loc):
+                locations.append(annotate(loc, rec)); kept += 1
+        sources_status.append({"key": rec["key"], "label": rec["label"], "status": rec["status"],
+                               "last_success": rec.get("last_success"), "error": rec.get("error"), "count": kept})
+        dot = {"fresh": "✓", "stale": "⚠", "error": "✗"}.get(rec["status"], "?")
+        print(f"  {GREEN if rec['status']=='fresh' else RED}{dot}{RESET} {rec['label']:<14} {kept} 个地点 · {rec['status']}")
+    loc2, ss2, _ = _scrape_login()
+    locations += loc2; sources_status += ss2
+    payload = {"generated_at": now_iso(), "sources": sources_status, "locations": locations}
+    atomic_write(LOGIN_OUT, payload)
+    total = sum((l.get("available_total") or 0) for l in locations)
+    print(f"\n{GREEN}{BOLD}Mac 数据完成：{len(locations)} 个地点 · {total} 个空位 -> {LOGIN_OUT}{RESET}")
+    return payload
+
+
+def generate(include_login=INCLUDE_LOGIN_SITES, source_keys=None):
+    CACHE.mkdir(exist_ok=True)
+    print(f"{BOLD}数据管道：并发抓取免登录来源…{RESET}")
+    records, srcs = _run_public(source_keys)
 
     public, sources_status = [], []
-    for s in SOURCES:
+    for s in srcs:
         rec = records[s["key"]]
         kept = 0
         for loc in rec.get("locations", []):
@@ -318,8 +348,10 @@ def generate(include_login=INCLUDE_LOGIN_SITES):
 if __name__ == "__main__":
     import sys
     if "--login-only" in sys.argv:
-        generate_login()
+        # Mac 端：NYC Parks（住宅 IP）+ 登录场馆 -> login_data.json
+        generate_mac()
     elif "--public-only" in sys.argv:
-        generate(include_login=False)
+        # 云端(GitHub Actions)：只跑数据中心可达的 CourtReserve -> public_data.json
+        generate(include_login=False, source_keys={"courtreserve"})
     else:
         generate()
