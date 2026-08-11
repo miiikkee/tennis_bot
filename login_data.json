@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-11T03:11:53.796843-04:00",
+  "generated_at": "2026-08-11T04:23:20.447087-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-08-11T03:11:01.776623-04:00",
+      "last_success": "2026-08-11T04:21:53.732817-04:00",
       "error": null,
       "count": 8
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-08-11T03:11:28.094730-04:00",
-      "error": null,
+      "error": "APIRequestContext.post: Timeout 30000ms exceeded.\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.434984996.1786290525; .ASPXAUTH=8A19A6B4065006A467BC9AF5B66FC463BDCD6C0D365B3E57396C9F4A193DF20AE8FFAE35463474AD26152F7C30D0872DD6F6D84202D0C254C51FC781015E5A32BC19849333DAB08C5145F6CCA4875A0548D3C2CEB2E4C7517C562F09433D2941A991585D5DB2C73D34F685CD39383EC094304EB86F458190E8551031F653D929B637C31D; _ga_7PNE7C8PW6=GS2.2.s1786290525$o1$g1$t1786290528$j57$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "stale",
-      "last_success": "2026-08-11T01:31:17.087311-04:00",
-      "error": "Page.goto: net::ERR_NETWORK_CHANGED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
+      "status": "fresh",
+      "last_success": "2026-08-11T04:23:20.429145-04:00",
+      "error": null,
       "count": 1
     }
   ],
@@ -13218,7 +13218,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-11T03:11:01.776623-04:00",
+      "updated_at": "2026-08-11T04:21:53.732817-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -15431,7 +15431,7 @@
       "site": "NYC Parks",
       "region": "Queens",
       "source": "nycparks",
-      "updated_at": "2026-08-11T03:11:01.776623-04:00",
+      "updated_at": "2026-08-11T04:21:53.732817-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7466,
@@ -16517,12 +16517,12 @@
                 "href": null
               },
               "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/700639"
+                "status": "booked",
+                "href": null
               },
               "11:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/700641"
               },
               "12:00 p.m.": {
                 "status": "available",
@@ -16591,8 +16591,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/700640"
               },
               "11:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/700642"
               },
               "12:00 p.m.": {
                 "status": "available",
@@ -16640,15 +16640,15 @@
               }
             }
           },
-          "available_count": 12
+          "available_count": 13
         }
       ],
-      "available_total": 16,
+      "available_total": 17,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Brooklyn",
       "source": "nycparks",
-      "updated_at": "2026-08-11T03:11:01.776623-04:00",
+      "updated_at": "2026-08-11T04:21:53.732817-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7205,
@@ -18363,7 +18363,7 @@
       "site": "NYC Parks",
       "region": "Bronx",
       "source": "nycparks",
-      "updated_at": "2026-08-11T03:11:01.776623-04:00",
+      "updated_at": "2026-08-11T04:21:53.732817-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.8268,
@@ -19580,7 +19580,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-11T03:11:01.776623-04:00",
+      "updated_at": "2026-08-11T04:21:53.732817-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
@@ -20797,7 +20797,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-11T03:11:01.776623-04:00",
+      "updated_at": "2026-08-11T04:21:53.732817-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
@@ -23010,7 +23010,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-11T03:11:01.776623-04:00",
+      "updated_at": "2026-08-11T04:21:53.732817-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.793,
@@ -24227,7 +24227,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-11T03:11:01.776623-04:00",
+      "updated_at": "2026-08-11T04:21:53.732817-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7585,
@@ -25471,7 +25471,7 @@
       "region": "Roosevelt Island",
       "source": "rioc",
       "updated_at": "2026-08-11T03:11:28.094730-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -28974,8 +28974,8 @@
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-08-11T01:31:17.087311-04:00",
-      "stale": true,
+      "updated_at": "2026-08-11T04:23:20.429145-04:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
