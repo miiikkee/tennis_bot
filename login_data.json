@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-13T16:02:28.717101-04:00",
+  "generated_at": "2026-08-13T17:25:48.784960-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-08-13T16:02:23.790225-04:00",
+      "last_success": "2026-08-13T17:24:00.675966-04:00",
       "error": null,
       "count": 8
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "stale",
-      "last_success": "2026-08-12T13:21:40.966710-04:00",
-      "error": "APIRequestContext.get: getaddrinfo ENOTFOUND rioc.civicpermits.com\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.389070763.1786465790; _ga_7PNE7C8PW6=GS2.2.s1786465790$o1$g1$t1786465792$j58$l0$h0\n",
+      "status": "fresh",
+      "last_success": "2026-08-13T17:25:16.771310-04:00",
+      "error": null,
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "stale",
-      "last_success": "2026-08-12T22:44:01.537412-04:00",
-      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
+      "status": "fresh",
+      "last_success": "2026-08-13T17:25:48.773518-04:00",
+      "error": null,
       "count": 1
     }
   ],
@@ -2215,8 +2215,8 @@
                 "href": null
               },
               "4:00 p.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/959721"
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -2314,7 +2314,7 @@
               }
             }
           },
-          "available_count": 1
+          "available_count": 2
         },
         {
           "date": "2026-08-19",
@@ -5365,8 +5365,8 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/959792"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "unavailable",
@@ -5492,7 +5492,7 @@
               }
             }
           },
-          "available_count": 3
+          "available_count": 2
         },
         {
           "date": "2026-08-26",
@@ -11543,8 +11543,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961646"
               },
               "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961647"
+                "status": "booked",
+                "href": null
               },
               "6:00 p.m.": {
                 "status": "booked",
@@ -11609,12 +11609,12 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/962030"
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/962031"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/962032"
+                "status": "booked",
+                "href": null
               },
               "6:00 p.m.": {
                 "status": "booked",
@@ -11848,7 +11848,7 @@
               }
             }
           },
-          "available_count": 40
+          "available_count": 37
         },
         {
           "date": "2026-09-09",
@@ -13285,8 +13285,8 @@
                 "href": null
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961305"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -13355,8 +13355,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961689"
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961690"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
                 "status": "available",
@@ -13664,15 +13664,15 @@
               }
             }
           },
-          "available_count": 38
+          "available_count": 36
         }
       ],
-      "available_total": 431,
+      "available_total": 426,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-13T16:02:23.790225-04:00",
+      "updated_at": "2026-08-13T17:24:00.675966-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -15885,7 +15885,7 @@
       "site": "NYC Parks",
       "region": "Queens",
       "source": "nycparks",
-      "updated_at": "2026-08-13T16:02:23.790225-04:00",
+      "updated_at": "2026-08-13T17:24:00.675966-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7466,
@@ -16643,8 +16643,8 @@
                 "href": null
               },
               "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/700645"
+                "status": "booked",
+                "href": null
               },
               "2:00 p.m.": {
                 "status": "booked",
@@ -16754,7 +16754,7 @@
               }
             }
           },
-          "available_count": 3
+          "available_count": 2
         },
         {
           "date": "2026-08-19",
@@ -16813,12 +16813,12 @@
                 "href": null
               },
               "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/700665"
+                "status": "booked",
+                "href": null
               },
               "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/700667"
+                "status": "booked",
+                "href": null
               },
               "3:00 p.m.": {
                 "status": "booked",
@@ -16875,8 +16875,8 @@
                 "href": null
               },
               "11:00 a.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/700662"
               },
               "12:00 p.m.": {
                 "status": "booked",
@@ -16924,7 +16924,7 @@
               }
             }
           },
-          "available_count": 4
+          "available_count": 3
         },
         {
           "date": "2026-08-20",
@@ -16995,8 +16995,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/700689"
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/700691"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -17094,15 +17094,15 @@
               }
             }
           },
-          "available_count": 6
+          "available_count": 5
         }
       ],
-      "available_total": 13,
+      "available_total": 10,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Brooklyn",
       "source": "nycparks",
-      "updated_at": "2026-08-13T16:02:23.790225-04:00",
+      "updated_at": "2026-08-13T17:24:00.675966-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7205,
@@ -17124,247 +17124,6 @@
         "12"
       ],
       "dates": [
-        {
-          "date": "2026-08-13",
-          "label": "Thursday, August 13, 2026",
-          "times": [
-            "6:00 a.m.",
-            "7:00 a.m.",
-            "8:00 a.m.",
-            "9:00 a.m.",
-            "10:00 a.m.",
-            "11:00 a.m.",
-            "12:00 p.m.",
-            "1:00 p.m.",
-            "2:00 p.m.",
-            "3:00 p.m.",
-            "4:00 p.m.",
-            "5:00 p.m.",
-            "6:00 p.m.",
-            "7:00 p.m.",
-            "8:00 p.m.",
-            "9:00 p.m.",
-            "10:00 p.m."
-          ],
-          "courts": [
-            "10",
-            "11",
-            "12"
-          ],
-          "grid": {
-            "10": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711711"
-              },
-              "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711714"
-              },
-              "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711717"
-              },
-              "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711720"
-              },
-              "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711723"
-              },
-              "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711726"
-              },
-              "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711729"
-              },
-              "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711732"
-              },
-              "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711735"
-              },
-              "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711738"
-              },
-              "6:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711741"
-              },
-              "7:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "11": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711712"
-              },
-              "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711715"
-              },
-              "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711718"
-              },
-              "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711721"
-              },
-              "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711724"
-              },
-              "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711727"
-              },
-              "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711730"
-              },
-              "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711733"
-              },
-              "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711736"
-              },
-              "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711739"
-              },
-              "6:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711742"
-              },
-              "7:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711745"
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "12": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711713"
-              },
-              "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711716"
-              },
-              "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711719"
-              },
-              "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711722"
-              },
-              "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711725"
-              },
-              "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711728"
-              },
-              "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711731"
-              },
-              "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711734"
-              },
-              "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711737"
-              },
-              "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711740"
-              },
-              "6:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711743"
-              },
-              "7:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            }
-          },
-          "available_count": 34
-        },
         {
           "date": "2026-08-14",
           "label": "Friday, August 14, 2026",
@@ -17652,12 +17411,12 @@
                 "href": null
               },
               "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711789"
+                "status": "booked",
+                "href": null
               },
               "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711792"
+                "status": "booked",
+                "href": null
               },
               "12:00 p.m.": {
                 "status": "available",
@@ -17714,16 +17473,16 @@
                 "href": null
               },
               "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711784"
+                "status": "booked",
+                "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711787"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711790"
+                "status": "booked",
+                "href": null
               },
               "11:00 a.m.": {
                 "status": "available",
@@ -17796,8 +17555,8 @@
                 "href": null
               },
               "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711794"
+                "status": "booked",
+                "href": null
               },
               "12:00 p.m.": {
                 "status": "available",
@@ -17845,7 +17604,7 @@
               }
             }
           },
-          "available_count": 24
+          "available_count": 18
         },
         {
           "date": "2026-08-16",
@@ -18274,12 +18033,12 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/711860"
               },
               "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711863"
+                "status": "booked",
+                "href": null
               },
               "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711866"
+                "status": "booked",
+                "href": null
               },
               "12:00 p.m.": {
                 "status": "booked",
@@ -18327,7 +18086,7 @@
               }
             }
           },
-          "available_count": 30
+          "available_count": 28
         },
         {
           "date": "2026-08-18",
@@ -18792,8 +18551,249 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/711959"
               },
               "7:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            }
+          },
+          "available_count": 35
+        },
+        {
+          "date": "2026-08-20",
+          "label": "Thursday, August 20, 2026",
+          "times": [
+            "6:00 a.m.",
+            "7:00 a.m.",
+            "8:00 a.m.",
+            "9:00 a.m.",
+            "10:00 a.m.",
+            "11:00 a.m.",
+            "12:00 p.m.",
+            "1:00 p.m.",
+            "2:00 p.m.",
+            "3:00 p.m.",
+            "4:00 p.m.",
+            "5:00 p.m.",
+            "6:00 p.m.",
+            "7:00 p.m.",
+            "8:00 p.m.",
+            "9:00 p.m.",
+            "10:00 p.m."
+          ],
+          "courts": [
+            "10",
+            "11",
+            "12"
+          ],
+          "grid": {
+            "10": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
                 "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711962"
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711963"
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711966"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711969"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711972"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711975"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711978"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711981"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711984"
+              },
+              "4:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711987"
+              },
+              "5:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711990"
+              },
+              "6:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711993"
+              },
+              "7:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711996"
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "11": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711964"
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711967"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711970"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711973"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711976"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711979"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711982"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711985"
+              },
+              "4:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711988"
+              },
+              "5:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711991"
+              },
+              "6:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711994"
+              },
+              "7:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711997"
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "12": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711965"
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711968"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711971"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711974"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711977"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711980"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711983"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711986"
+              },
+              "4:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711989"
+              },
+              "5:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711992"
+              },
+              "6:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711995"
+              },
+              "7:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/711998"
               },
               "8:00 p.m.": {
                 "status": "unavailable",
@@ -18812,14 +18812,13 @@
           "available_count": 36
         }
       ],
-      "available_total": 219,
-      "_backfilled": true,
+      "available_total": 212,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Bronx",
       "source": "nycparks",
-      "updated_at": "2026-08-13T16:02:23.790225-04:00",
-      "stale": true,
+      "updated_at": "2026-08-13T17:24:00.675966-04:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.8268,
       "lng": -73.9285
@@ -18840,176 +18839,6 @@
       ],
       "dates": [
         {
-          "date": "2026-08-13",
-          "label": "Thursday, August 13, 2026",
-          "times": [
-            "6:00 a.m.",
-            "7:00 a.m.",
-            "8:00 a.m.",
-            "9:00 a.m.",
-            "10:00 a.m.",
-            "11:00 a.m.",
-            "12:00 p.m.",
-            "1:00 p.m.",
-            "2:00 p.m.",
-            "3:00 p.m.",
-            "4:00 p.m.",
-            "5:00 p.m.",
-            "6:00 p.m.",
-            "7:00 p.m.",
-            "8:00 p.m.",
-            "9:00 p.m.",
-            "10:00 p.m."
-          ],
-          "courts": [
-            "10",
-            "9"
-          ],
-          "grid": {
-            "10": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "9": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            }
-          },
-          "available_count": 0
-        },
-        {
           "date": "2026-08-14",
           "label": "Friday, August 14, 2026",
           "times": [
@@ -19029,7 +18858,8 @@
             "7:00 p.m.",
             "8:00 p.m.",
             "9:00 p.m.",
-            "10:00 p.m."
+            "10:00 p.m.",
+            "3:00 a.m."
           ],
           "courts": [
             "10",
@@ -19104,6 +18934,10 @@
               "10:00 p.m.": {
                 "status": "unavailable",
                 "href": null
+              },
+              "3:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/713872"
               }
             },
             "9": {
@@ -19177,7 +19011,7 @@
               }
             }
           },
-          "available_count": 0
+          "available_count": 1
         },
         {
           "date": "2026-08-15",
@@ -19912,8 +19746,8 @@
                 "href": null
               },
               "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/697772"
+                "status": "booked",
+                "href": null
               },
               "1:00 p.m.": {
                 "status": "unavailable",
@@ -19994,8 +19828,8 @@
                 "href": null
               },
               "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/697777"
+                "status": "booked",
+                "href": null
               },
               "4:00 p.m.": {
                 "status": "booked",
@@ -20027,39 +19861,11 @@
               }
             }
           },
-          "available_count": 3
-        }
-      ],
-      "available_total": 3,
-      "_backfilled": true,
-      "book_kind": "slot",
-      "site": "NYC Parks",
-      "region": "Manhattan",
-      "source": "nycparks",
-      "updated_at": "2026-08-13T16:02:23.790225-04:00",
-      "stale": true,
-      "default_type": "Outdoor",
-      "lat": 40.796,
-      "lng": -73.9772
-    },
-    {
-      "id": 2,
-      "name": "Riverside Park (119 Street)",
-      "borough": "Manhattan",
-      "reservation_courts": 2,
-      "walkon_courts": 10,
-      "first_reservation": "April 16",
-      "last_reservation": "September 13",
-      "url": "https://www.nycgovparks.org/tennisreservation/availability/2",
-      "note": null,
-      "courts": [
-        "3",
-        "5"
-      ],
-      "dates": [
+          "available_count": 1
+        },
         {
-          "date": "2026-08-13",
-          "label": "Thursday, August 13, 2026",
+          "date": "2026-08-20",
+          "label": "Thursday, August 20, 2026",
           "times": [
             "6:00 a.m.",
             "7:00 a.m.",
@@ -20080,21 +19886,21 @@
             "10:00 p.m."
           ],
           "courts": [
-            "3",
-            "5"
+            "10",
+            "9"
           ],
           "grid": {
-            "3": {
+            "10": {
               "6:00 a.m.": {
                 "status": "unavailable",
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "unavailable",
+                "status": "booked",
                 "href": null
               },
               "8:00 a.m.": {
-                "status": "unavailable",
+                "status": "booked",
                 "href": null
               },
               "9:00 a.m.": {
@@ -20102,32 +19908,32 @@
                 "href": null
               },
               "10:00 a.m.": {
-                "status": "booked",
+                "status": "unavailable",
                 "href": null
               },
               "11:00 a.m.": {
-                "status": "booked",
+                "status": "unavailable",
                 "href": null
               },
               "12:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/697798"
               },
               "1:00 p.m.": {
-                "status": "booked",
+                "status": "unavailable",
                 "href": null
               },
               "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685568"
+                "status": "unavailable",
+                "href": null
               },
               "3:00 p.m.": {
                 "status": "booked",
                 "href": null
               },
               "4:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/697806"
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -20154,17 +19960,17 @@
                 "href": null
               }
             },
-            "5": {
+            "9": {
               "6:00 a.m.": {
                 "status": "unavailable",
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "unavailable",
+                "status": "booked",
                 "href": null
               },
               "8:00 a.m.": {
-                "status": "unavailable",
+                "status": "booked",
                 "href": null
               },
               "9:00 a.m.": {
@@ -20172,32 +19978,32 @@
                 "href": null
               },
               "10:00 a.m.": {
-                "status": "booked",
+                "status": "unavailable",
                 "href": null
               },
               "11:00 a.m.": {
-                "status": "booked",
+                "status": "unavailable",
                 "href": null
               },
               "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685565"
+                "status": "booked",
+                "href": null
               },
               "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685567"
+                "status": "unavailable",
+                "href": null
               },
               "2:00 p.m.": {
-                "status": "booked",
+                "status": "unavailable",
                 "href": null
               },
               "3:00 p.m.": {
                 "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685571"
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/697803"
               },
               "4:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/697805"
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -20226,7 +20032,34 @@
             }
           },
           "available_count": 4
-        },
+        }
+      ],
+      "available_total": 6,
+      "book_kind": "slot",
+      "site": "NYC Parks",
+      "region": "Manhattan",
+      "source": "nycparks",
+      "updated_at": "2026-08-13T17:24:00.675966-04:00",
+      "stale": false,
+      "default_type": "Outdoor",
+      "lat": 40.796,
+      "lng": -73.9772
+    },
+    {
+      "id": 2,
+      "name": "Riverside Park (119 Street)",
+      "borough": "Manhattan",
+      "reservation_courts": 2,
+      "walkon_courts": 10,
+      "first_reservation": "April 16",
+      "last_reservation": "September 13",
+      "url": "https://www.nycgovparks.org/tennisreservation/availability/2",
+      "note": null,
+      "courts": [
+        "3",
+        "5"
+      ],
+      "dates": [
         {
           "date": "2026-08-14",
           "label": "Friday, August 14, 2026",
@@ -20806,8 +20639,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/685658"
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685660"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -20905,7 +20738,7 @@
               }
             }
           },
-          "available_count": 7
+          "available_count": 6
         },
         {
           "date": "2026-08-18",
@@ -21122,8 +20955,8 @@
                 "href": null
               },
               "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685692"
+                "status": "booked",
+                "href": null
               },
               "11:00 a.m.": {
                 "status": "available",
@@ -21245,17 +21078,186 @@
               }
             }
           },
-          "available_count": 14
+          "available_count": 13
+        },
+        {
+          "date": "2026-08-20",
+          "label": "Thursday, August 20, 2026",
+          "times": [
+            "6:00 a.m.",
+            "7:00 a.m.",
+            "8:00 a.m.",
+            "9:00 a.m.",
+            "10:00 a.m.",
+            "11:00 a.m.",
+            "12:00 p.m.",
+            "1:00 p.m.",
+            "2:00 p.m.",
+            "3:00 p.m.",
+            "4:00 p.m.",
+            "5:00 p.m.",
+            "6:00 p.m.",
+            "7:00 p.m.",
+            "8:00 p.m.",
+            "9:00 p.m.",
+            "10:00 p.m."
+          ],
+          "courts": [
+            "3",
+            "5"
+          ],
+          "grid": {
+            "3": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685712"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685714"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685716"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685718"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685720"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685722"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685724"
+              },
+              "4:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685726"
+              },
+              "5:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685728"
+              },
+              "6:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "5": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685715"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685717"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685719"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685721"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685723"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685725"
+              },
+              "4:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685727"
+              },
+              "5:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/685729"
+              },
+              "6:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            }
+          },
+          "available_count": 17
         }
       ],
-      "available_total": 37,
-      "_backfilled": true,
+      "available_total": 48,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-13T16:02:23.790225-04:00",
-      "stale": true,
+      "updated_at": "2026-08-13T17:24:00.675966-04:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
       "lng": -73.966
@@ -21277,318 +21279,6 @@
         "D"
       ],
       "dates": [
-        {
-          "date": "2026-08-13",
-          "label": "Thursday, August 13, 2026",
-          "times": [
-            "6:00 a.m.",
-            "7:00 a.m.",
-            "8:00 a.m.",
-            "9:00 a.m.",
-            "10:00 a.m.",
-            "11:00 a.m.",
-            "12:00 p.m.",
-            "1:00 p.m.",
-            "2:00 p.m.",
-            "3:00 p.m.",
-            "4:00 p.m.",
-            "5:00 p.m.",
-            "6:00 p.m.",
-            "7:00 p.m.",
-            "8:00 p.m.",
-            "9:00 p.m.",
-            "10:00 p.m."
-          ],
-          "courts": [
-            "A",
-            "B",
-            "C",
-            "D"
-          ],
-          "grid": {
-            "A": {
-              "6:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706703"
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706711"
-              },
-              "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706715"
-              },
-              "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706719"
-              },
-              "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706723"
-              },
-              "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706727"
-              },
-              "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706731"
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706739"
-              },
-              "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706743"
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "B": {
-              "6:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706704"
-              },
-              "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706708"
-              },
-              "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706712"
-              },
-              "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706716"
-              },
-              "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706720"
-              },
-              "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706724"
-              },
-              "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706728"
-              },
-              "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706732"
-              },
-              "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706736"
-              },
-              "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706740"
-              },
-              "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706744"
-              },
-              "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706748"
-              },
-              "6:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706768"
-              }
-            },
-            "C": {
-              "6:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706705"
-              },
-              "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706709"
-              },
-              "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706713"
-              },
-              "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706717"
-              },
-              "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706721"
-              },
-              "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706725"
-              },
-              "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706729"
-              },
-              "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706733"
-              },
-              "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706737"
-              },
-              "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706741"
-              },
-              "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706745"
-              },
-              "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706749"
-              },
-              "6:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706769"
-              }
-            },
-            "D": {
-              "6:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706706"
-              },
-              "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706710"
-              },
-              "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706714"
-              },
-              "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706718"
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706726"
-              },
-              "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706730"
-              },
-              "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706734"
-              },
-              "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706738"
-              },
-              "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706742"
-              },
-              "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706746"
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706770"
-              }
-            }
-          },
-          "available_count": 46
-        },
         {
           "date": "2026-08-14",
           "label": "Friday, August 14, 2026",
@@ -21792,16 +21482,16 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/706801"
               },
               "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706805"
+                "status": "booked",
+                "href": null
               },
               "3:00 p.m.": {
                 "status": "available",
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/706809"
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706813"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -21838,12 +21528,12 @@
                 "href": null
               },
               "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706782"
+                "status": "booked",
+                "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706786"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "available",
@@ -21899,7 +21589,7 @@
               }
             }
           },
-          "available_count": 39
+          "available_count": 35
         },
         {
           "date": "2026-08-15",
@@ -22276,8 +21966,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/706935"
               },
               "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/706939"
+                "status": "booked",
+                "href": null
               },
               "3:00 p.m.": {
                 "status": "booked",
@@ -22523,7 +22213,7 @@
               }
             }
           },
-          "available_count": 32
+          "available_count": 31
         },
         {
           "date": "2026-08-17",
@@ -22822,8 +22512,8 @@
                 "href": null
               },
               "8:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707034"
+                "status": "booked",
+                "href": null
               },
               "9:00 p.m.": {
                 "status": "available",
@@ -22835,7 +22525,7 @@
               }
             }
           },
-          "available_count": 59
+          "available_count": 58
         },
         {
           "date": "2026-08-18",
@@ -22994,8 +22684,8 @@
                 "href": null
               },
               "8:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707100"
+                "status": "booked",
+                "href": null
               },
               "9:00 p.m.": {
                 "status": "available",
@@ -23134,8 +22824,8 @@
                 "href": null
               },
               "8:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707102"
+                "status": "booked",
+                "href": null
               },
               "9:00 p.m.": {
                 "status": "available",
@@ -23147,7 +22837,7 @@
               }
             }
           },
-          "available_count": 55
+          "available_count": 53
         },
         {
           "date": "2026-08-19",
@@ -23460,38 +23150,10 @@
             }
           },
           "available_count": 64
-        }
-      ],
-      "available_total": 322,
-      "_backfilled": true,
-      "book_kind": "slot",
-      "site": "NYC Parks",
-      "region": "Manhattan",
-      "source": "nycparks",
-      "updated_at": "2026-08-13T16:02:23.790225-04:00",
-      "stale": true,
-      "default_type": "Outdoor",
-      "lat": 40.793,
-      "lng": -73.921
-    },
-    {
-      "id": 13,
-      "name": "Sutton East at Queensborough Oval",
-      "borough": "Manhattan",
-      "reservation_courts": 2,
-      "walkon_courts": 6,
-      "first_reservation": "April 20",
-      "last_reservation": "September  6",
-      "url": "https://www.nycgovparks.org/tennisreservation/availability/13",
-      "note": null,
-      "courts": [
-        "4",
-        "5"
-      ],
-      "dates": [
+        },
         {
-          "date": "2026-08-13",
-          "label": "Thursday, August 13, 2026",
+          "date": "2026-08-20",
+          "label": "Thursday, August 20, 2026",
           "times": [
             "6:00 a.m.",
             "7:00 a.m.",
@@ -23512,153 +23174,322 @@
             "10:00 p.m."
           ],
           "courts": [
-            "4",
-            "5"
+            "A",
+            "B",
+            "C",
+            "D"
           ],
           "grid": {
-            "4": {
+            "A": {
               "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707179"
               },
               "7:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707183"
               },
               "8:00 a.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707187"
               },
               "9:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707191"
               },
               "10:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707195"
               },
               "11:00 a.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707199"
               },
               "12:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707203"
               },
               "1:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707207"
               },
               "2:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707211"
               },
               "3:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707215"
               },
               "4:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707219"
               },
               "5:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707223"
               },
               "6:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707227"
               },
               "7:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707231"
               },
               "8:00 p.m.": {
                 "status": "booked",
                 "href": null
               },
               "9:00 p.m.": {
-                "status": "unavailable",
+                "status": "booked",
                 "href": null
               },
               "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707243"
               }
             },
-            "5": {
+            "B": {
               "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707180"
               },
               "7:00 a.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707184"
               },
               "8:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707188"
               },
               "9:00 a.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707192"
               },
               "10:00 a.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707196"
               },
               "11:00 a.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707200"
               },
               "12:00 p.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707204"
               },
               "1:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707208"
               },
               "2:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707212"
               },
               "3:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707216"
               },
               "4:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707220"
               },
               "5:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707224"
               },
               "6:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707228"
               },
               "7:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707232"
               },
               "8:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707236"
               },
               "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707240"
               },
               "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707244"
+              }
+            },
+            "C": {
+              "6:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707181"
+              },
+              "7:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707185"
+              },
+              "8:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707189"
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707193"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707197"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707201"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707205"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707209"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707213"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707217"
+              },
+              "4:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707221"
+              },
+              "5:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707225"
+              },
+              "6:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707229"
+              },
+              "7:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707233"
+              },
+              "8:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707237"
+              },
+              "9:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707241"
+              },
+              "10:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707245"
+              }
+            },
+            "D": {
+              "6:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707182"
+              },
+              "7:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707186"
+              },
+              "8:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707190"
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707194"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707198"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707202"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707206"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707210"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707214"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707218"
+              },
+              "4:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707222"
+              },
+              "5:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707226"
+              },
+              "6:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707230"
+              },
+              "7:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707234"
+              },
+              "8:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707238"
+              },
+              "9:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707242"
+              },
+              "10:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/707246"
               }
             }
           },
-          "available_count": 0
-        },
+          "available_count": 66
+        }
+      ],
+      "available_total": 334,
+      "book_kind": "slot",
+      "site": "NYC Parks",
+      "region": "Manhattan",
+      "source": "nycparks",
+      "updated_at": "2026-08-13T17:24:00.675966-04:00",
+      "stale": false,
+      "default_type": "Outdoor",
+      "lat": 40.793,
+      "lng": -73.921
+    },
+    {
+      "id": 13,
+      "name": "Sutton East at Queensborough Oval",
+      "borough": "Manhattan",
+      "reservation_courts": 2,
+      "walkon_courts": 6,
+      "first_reservation": "April 20",
+      "last_reservation": "September  6",
+      "url": "https://www.nycgovparks.org/tennisreservation/availability/13",
+      "note": null,
+      "courts": [
+        "4",
+        "5"
+      ],
+      "dates": [
         {
           "date": "2026-08-14",
           "label": "Friday, August 14, 2026",
@@ -24466,8 +24297,8 @@
                 "href": null
               },
               "1:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/682433"
               },
               "2:00 p.m.": {
                 "status": "booked",
@@ -24507,7 +24338,7 @@
               }
             }
           },
-          "available_count": 0
+          "available_count": 1
         },
         {
           "date": "2026-08-19",
@@ -24570,8 +24401,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/682458"
               },
               "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/682460"
+                "status": "booked",
+                "href": null
               },
               "3:00 p.m.": {
                 "status": "booked",
@@ -24677,17 +24508,186 @@
               }
             }
           },
-          "available_count": 6
+          "available_count": 5
+        },
+        {
+          "date": "2026-08-20",
+          "label": "Thursday, August 20, 2026",
+          "times": [
+            "6:00 a.m.",
+            "7:00 a.m.",
+            "8:00 a.m.",
+            "9:00 a.m.",
+            "10:00 a.m.",
+            "11:00 a.m.",
+            "12:00 p.m.",
+            "1:00 p.m.",
+            "2:00 p.m.",
+            "3:00 p.m.",
+            "4:00 p.m.",
+            "5:00 p.m.",
+            "6:00 p.m.",
+            "7:00 p.m.",
+            "8:00 p.m.",
+            "9:00 p.m.",
+            "10:00 p.m."
+          ],
+          "courts": [
+            "4",
+            "5"
+          ],
+          "grid": {
+            "4": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/682480"
+              },
+              "12:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "5": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 a.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 a.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/682483"
+              },
+              "1:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            }
+          },
+          "available_count": 2
         }
       ],
-      "available_total": 6,
-      "_backfilled": true,
+      "available_total": 8,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-13T16:02:23.790225-04:00",
-      "stale": true,
+      "updated_at": "2026-08-13T17:24:00.675966-04:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7585,
       "lng": -73.96
@@ -24711,410 +24711,6 @@
         "6"
       ],
       "dates": [
-        {
-          "date": "2026-08-13",
-          "label": "Thursday, August 13, 2026",
-          "times": [
-            "7:00 AM",
-            "8:00 AM",
-            "9:00 AM",
-            "10:00 AM",
-            "11:00 AM",
-            "12:00 PM",
-            "1:00 PM",
-            "2:00 PM",
-            "3:00 PM",
-            "4:00 PM",
-            "5:00 PM",
-            "6:00 PM",
-            "7:00 PM",
-            "8:00 PM",
-            "9:00 PM"
-          ],
-          "courts": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"
-          ],
-          "grid": {
-            "1": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "2": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "3:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "3": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "4": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "5": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "6": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            }
-          },
-          "available_count": 13
-        },
         {
           "date": "2026-08-14",
           "label": "Friday, August 14, 2026",
@@ -25146,8 +24742,8 @@
           "grid": {
             "1": {
               "7:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "8:00 AM": {
                 "status": "booked",
@@ -25208,8 +24804,8 @@
             },
             "2": {
               "7:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "8:00 AM": {
                 "status": "booked",
@@ -25418,8 +25014,8 @@
                 "href": null
               },
               "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "2:00 PM": {
                 "status": "booked",
@@ -25456,8 +25052,8 @@
             },
             "6": {
               "7:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "8:00 AM": {
                 "status": "booked",
@@ -25517,11 +25113,415 @@
               }
             }
           },
-          "available_count": 8
+          "available_count": 4
         },
         {
           "date": "2026-08-15",
           "label": "Saturday, August 15, 2026",
+          "times": [
+            "7:00 AM",
+            "8:00 AM",
+            "9:00 AM",
+            "10:00 AM",
+            "11:00 AM",
+            "12:00 PM",
+            "1:00 PM",
+            "2:00 PM",
+            "3:00 PM",
+            "4:00 PM",
+            "5:00 PM",
+            "6:00 PM",
+            "7:00 PM",
+            "8:00 PM",
+            "9:00 PM"
+          ],
+          "courts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "grid": {
+            "1": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "2": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "3": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "4": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "5": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "6": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            }
+          },
+          "available_count": 0
+        },
+        {
+          "date": "2026-08-16",
+          "label": "Sunday, August 16, 2026",
           "times": [
             "7:00 AM",
             "8:00 AM",
@@ -25924,13 +25924,13 @@
           "available_count": 81
         }
       ],
-      "available_total": 102,
+      "available_total": 85,
       "book_kind": "facility",
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-08-12T13:21:40.966710-04:00",
-      "stale": true,
+      "updated_at": "2026-08-13T17:25:16.771310-04:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -25956,1163 +25956,6 @@
         "Hard: Court 4a"
       ],
       "dates": [
-        {
-          "date": "2026-08-12",
-          "label": "Wednesday, August 12, 2026",
-          "times": [
-            "6:00 AM",
-            "6:30 AM",
-            "7:00 AM",
-            "7:30 AM",
-            "8:00 AM",
-            "8:30 AM",
-            "9:00 AM",
-            "9:30 AM",
-            "10:00 AM",
-            "10:30 AM",
-            "11:00 AM",
-            "11:30 AM",
-            "12:00 PM",
-            "12:30 PM",
-            "1:00 PM",
-            "1:30 PM",
-            "2:00 PM",
-            "2:30 PM",
-            "3:00 PM",
-            "3:30 PM",
-            "4:00 PM",
-            "4:30 PM",
-            "5:00 PM",
-            "5:30 PM",
-            "6:00 PM",
-            "6:30 PM",
-            "7:00 PM",
-            "7:30 PM",
-            "8:00 PM",
-            "8:30 PM",
-            "9:00 PM",
-            "9:30 PM",
-            "10:00 PM",
-            "10:30 PM"
-          ],
-          "courts": [
-            "Clay: Court 3a",
-            "Clay: Court 2a",
-            "Clay: Court 1a",
-            "Clay: Court 4b",
-            "Clay: Court 5b",
-            "Clay: Court 6b",
-            "Hard: Court 5a",
-            "Hard: Court 4a"
-          ],
-          "grid": {
-            "Clay: Court 3a": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "4:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 2a": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 1a": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 4b": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              }
-            },
-            "Clay: Court 5b": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              }
-            },
-            "Clay: Court 6b": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "9:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              }
-            },
-            "Hard: Court 5a": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Hard: Court 4a": {
-              "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "3:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "4:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "4:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              }
-            }
-          },
-          "available_count": 42
-        },
         {
           "date": "2026-08-13",
           "label": "Thursday, August 13, 2026",
@@ -27375,12 +26218,12 @@
                 "href": null
               },
               "3:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "3:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "4:00 PM": {
                 "status": "available",
@@ -27399,12 +26242,12 @@
                 "href": null
               },
               "6:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "7:00 PM": {
                 "status": "booked",
@@ -28065,28 +26908,28 @@
                 "href": null
               },
               "3:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "3:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "4:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "4:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "5:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "5:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:00 PM": {
                 "status": "booked",
@@ -28147,12 +26990,12 @@
                 "href": null
               },
               "8:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "8:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "9:00 AM": {
                 "status": "booked",
@@ -28203,28 +27046,28 @@
                 "href": null
               },
               "3:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "3:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "4:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "4:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "5:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "5:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:00 PM": {
                 "status": "booked",
@@ -28268,7 +27111,7 @@
               }
             }
           },
-          "available_count": 64
+          "available_count": 46
         },
         {
           "date": "2026-08-14",
@@ -28556,12 +27399,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "6:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "7:00 PM": {
                 "status": "booked",
@@ -28678,12 +27521,12 @@
                 "href": null
               },
               "4:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "4:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "5:00 PM": {
                 "status": "available",
@@ -28718,12 +27561,12 @@
                 "href": null
               },
               "9:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "9:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "10:00 PM": {
                 "status": "available",
@@ -28954,20 +27797,20 @@
                 "href": null
               },
               "4:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
                 "status": "available",
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
               "5:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "6:00 PM": {
                 "status": "booked",
@@ -29020,12 +27863,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "7:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "7:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "8:00 AM": {
                 "status": "booked",
@@ -29425,16 +28268,1041 @@
               }
             }
           },
-          "available_count": 84
+          "available_count": 80
+        },
+        {
+          "date": "2026-08-15",
+          "label": "Saturday, August 15, 2026",
+          "times": [
+            "7:00 AM",
+            "7:30 AM",
+            "8:00 AM",
+            "8:30 AM",
+            "9:00 AM",
+            "9:30 AM",
+            "10:00 AM",
+            "10:30 AM",
+            "11:00 AM",
+            "11:30 AM",
+            "12:00 PM",
+            "12:30 PM",
+            "1:00 PM",
+            "1:30 PM",
+            "2:00 PM",
+            "2:30 PM",
+            "3:00 PM",
+            "3:30 PM",
+            "4:00 PM",
+            "4:30 PM",
+            "5:00 PM",
+            "5:30 PM",
+            "6:00 PM",
+            "6:30 PM",
+            "7:00 PM",
+            "7:30 PM",
+            "8:00 PM",
+            "8:30 PM",
+            "9:00 PM",
+            "9:30 PM"
+          ],
+          "courts": [
+            "Clay: Court 3a",
+            "Clay: Court 2a",
+            "Clay: Court 1a",
+            "Clay: Court 4b",
+            "Clay: Court 5b",
+            "Clay: Court 6b",
+            "Hard: Court 5a",
+            "Hard: Court 4a"
+          ],
+          "grid": {
+            "Clay: Court 3a": {
+              "7:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "12:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            },
+            "Clay: Court 2a": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Clay: Court 1a": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Clay: Court 4b": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            },
+            "Clay: Court 5b": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            },
+            "Clay: Court 6b": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            },
+            "Hard: Court 5a": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "11:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "11:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            },
+            "Hard: Court 4a": {
+              "7:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "8:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "10:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "11:00 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "11:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "12:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "12:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "1:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "2:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "3:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "4:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "5:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "6:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              }
+            }
+          },
+          "available_count": 96
         }
       ],
-      "available_total": 190,
+      "available_total": 222,
       "book_kind": "facility",
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-08-12T22:44:01.537412-04:00",
-      "stale": true,
+      "updated_at": "2026-08-13T17:25:48.773518-04:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
