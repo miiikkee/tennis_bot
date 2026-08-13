@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-13T17:25:48.784960-04:00",
+  "generated_at": "2026-08-13T19:36:43.927967-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-08-13T17:24:00.675966-04:00",
+      "last_success": "2026-08-13T19:36:39.469541-04:00",
       "error": null,
       "count": 8
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-08-13T17:25:16.771310-04:00",
-      "error": null,
+      "error": "APIRequestContext.get: getaddrinfo ENOTFOUND rioc.civicpermits.com\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.1771655824.1786656250; _gid=GA1.2.2098673665.1786656250; .ASPXAUTH=76EA8E97C123B9AE731F10861958AE13CD140B33CFAB85CC81E956A0D2C7D848F3F1CA075AEADA930133725D1A1337810ED09FB183562DBCD3CA6D896A558C96311D667D38A5154969B6D4A1660A196747994C4DABA0EF2BFDA10E7E34370FC4D34492E4FC8E0AA26DDB2947D0436599003C78BEB604F0973FB51DA2143F97DD0F9F5F6B; _ga_7PNE7C8PW6=GS2.2.s1786656251$o1$g1$t1786656254$j57$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-08-13T17:25:48.773518-04:00",
-      "error": null,
+      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
       "count": 1
     }
   ],
@@ -301,8 +301,8 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/958362"
               },
               "10:00 a.m.": {
                 "status": "booked",
@@ -498,7 +498,7 @@
               }
             }
           },
-          "available_count": 0
+          "available_count": 1
         },
         {
           "date": "2026-08-15",
@@ -1361,8 +1361,8 @@
                 "href": null
               },
               "12:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961005"
               },
               "1:00 p.m.": {
                 "status": "booked",
@@ -1406,7 +1406,7 @@
               }
             }
           },
-          "available_count": 0
+          "available_count": 1
         },
         {
           "date": "2026-08-17",
@@ -12691,8 +12691,8 @@
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963200"
+                "status": "booked",
+                "href": null
               },
               "8:00 a.m.": {
                 "status": "available",
@@ -12756,7 +12756,7 @@
               }
             }
           },
-          "available_count": 37
+          "available_count": 36
         },
         {
           "date": "2026-09-11",
@@ -12901,8 +12901,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961678"
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961679"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -13210,7 +13210,7 @@
               }
             }
           },
-          "available_count": 40
+          "available_count": 39
         },
         {
           "date": "2026-09-12",
@@ -13269,8 +13269,8 @@
                 "href": null
               },
               "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961302"
+                "status": "booked",
+                "href": null
               },
               "1:00 p.m.": {
                 "status": "available",
@@ -13359,8 +13359,8 @@
                 "href": null
               },
               "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961691"
+                "status": "booked",
+                "href": null
               },
               "6:00 p.m.": {
                 "status": "available",
@@ -13429,8 +13429,8 @@
                 "href": null
               },
               "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/962076"
+                "status": "booked",
+                "href": null
               },
               "6:00 p.m.": {
                 "status": "available",
@@ -13537,8 +13537,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/962838"
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/962839"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "booked",
@@ -13664,15 +13664,15 @@
               }
             }
           },
-          "available_count": 36
+          "available_count": 32
         }
       ],
-      "available_total": 426,
+      "available_total": 422,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-13T17:24:00.675966-04:00",
+      "updated_at": "2026-08-13T19:36:39.469541-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -15881,12 +15881,13 @@
         }
       ],
       "available_total": 336,
+      "_backfilled": true,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Queens",
       "source": "nycparks",
-      "updated_at": "2026-08-13T17:24:00.675966-04:00",
-      "stale": false,
+      "updated_at": "2026-08-13T19:36:39.469541-04:00",
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7466,
       "lng": -73.7553
@@ -17098,12 +17099,13 @@
         }
       ],
       "available_total": 10,
+      "_backfilled": true,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Brooklyn",
       "source": "nycparks",
-      "updated_at": "2026-08-13T17:24:00.675966-04:00",
-      "stale": false,
+      "updated_at": "2026-08-13T19:36:39.469541-04:00",
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7205,
       "lng": -73.9506
@@ -18813,12 +18815,13 @@
         }
       ],
       "available_total": 212,
+      "_backfilled": true,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Bronx",
       "source": "nycparks",
-      "updated_at": "2026-08-13T17:24:00.675966-04:00",
-      "stale": false,
+      "updated_at": "2026-08-13T19:36:39.469541-04:00",
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.8268,
       "lng": -73.9285
@@ -20035,12 +20038,13 @@
         }
       ],
       "available_total": 6,
+      "_backfilled": true,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-13T17:24:00.675966-04:00",
-      "stale": false,
+      "updated_at": "2026-08-13T19:36:39.469541-04:00",
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.796,
       "lng": -73.9772
@@ -21252,12 +21256,13 @@
         }
       ],
       "available_total": 48,
+      "_backfilled": true,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-13T17:24:00.675966-04:00",
-      "stale": false,
+      "updated_at": "2026-08-13T19:36:39.469541-04:00",
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.811,
       "lng": -73.966
@@ -23465,12 +23470,13 @@
         }
       ],
       "available_total": 334,
+      "_backfilled": true,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-13T17:24:00.675966-04:00",
-      "stale": false,
+      "updated_at": "2026-08-13T19:36:39.469541-04:00",
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.793,
       "lng": -73.921
@@ -24682,12 +24688,13 @@
         }
       ],
       "available_total": 8,
+      "_backfilled": true,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-13T17:24:00.675966-04:00",
-      "stale": false,
+      "updated_at": "2026-08-13T19:36:39.469541-04:00",
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7585,
       "lng": -73.96
@@ -25930,7 +25937,7 @@
       "region": "Roosevelt Island",
       "source": "rioc",
       "updated_at": "2026-08-13T17:25:16.771310-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -29302,7 +29309,7 @@
       "region": "Brooklyn",
       "source": "prospect",
       "updated_at": "2026-08-13T17:25:48.773518-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
