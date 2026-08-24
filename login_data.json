@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-24T05:25:38.318675-04:00",
+  "generated_at": "2026-08-24T06:48:17.240174-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-08-24T05:24:49.212489-04:00",
+      "last_success": "2026-08-24T06:46:42.309306-04:00",
       "error": null,
       "count": 8
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-08-24T05:25:19.538780-04:00",
-      "error": null,
+      "error": "APIRequestContext.post: Timeout 30000ms exceeded.\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.952499712.1787397223; .ASPXAUTH=D1A052012EA57E75C4E0165E485E2F2C834B6FB929FB9CDBD0F8369785F1ADA08997760161D48D8A8635D68EC83024CD0FD8D60A0E112ABEEF1B7E42649EB3536762F1232E55EE25D348F86B8E8AAE5929BCE0A750D704AA6B8F7420C4E7719153B12043F617754164C4973DA599DAFD53CC111B4855D3823D0196D47A35510AA0C5F967; _ga_7PNE7C8PW6=GS2.2.s1787397222$o1$g1$t1787397224$j58$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-08-24T05:25:38.305768-04:00",
+      "last_success": "2026-08-24T06:48:17.222052-04:00",
       "error": null,
       "count": 1
     }
@@ -13218,7 +13218,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-24T05:24:49.212489-04:00",
+      "updated_at": "2026-08-24T06:46:42.309306-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -15431,7 +15431,7 @@
       "site": "NYC Parks",
       "region": "Queens",
       "source": "nycparks",
-      "updated_at": "2026-08-24T05:24:49.212489-04:00",
+      "updated_at": "2026-08-24T06:46:42.309306-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7466,
@@ -16648,7 +16648,7 @@
       "site": "NYC Parks",
       "region": "Brooklyn",
       "source": "nycparks",
-      "updated_at": "2026-08-24T05:24:49.212489-04:00",
+      "updated_at": "2026-08-24T06:46:42.309306-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7205,
@@ -18363,7 +18363,7 @@
       "site": "NYC Parks",
       "region": "Bronx",
       "source": "nycparks",
-      "updated_at": "2026-08-24T05:24:49.212489-04:00",
+      "updated_at": "2026-08-24T06:46:42.309306-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.8268,
@@ -19481,8 +19481,8 @@
                 "href": null
               },
               "6:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/698096"
+                "status": "booked",
+                "href": null
               },
               "7:00 p.m.": {
                 "status": "unavailable",
@@ -19511,8 +19511,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/698073"
               },
               "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/698075"
+                "status": "booked",
+                "href": null
               },
               "9:00 a.m.": {
                 "status": "available",
@@ -19572,15 +19572,15 @@
               }
             }
           },
-          "available_count": 15
+          "available_count": 13
         }
       ],
-      "available_total": 15,
+      "available_total": 13,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-24T05:24:49.212489-04:00",
+      "updated_at": "2026-08-24T06:46:42.309306-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
@@ -20797,7 +20797,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-24T05:24:49.212489-04:00",
+      "updated_at": "2026-08-24T06:46:42.309306-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
@@ -23010,7 +23010,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-24T05:24:49.212489-04:00",
+      "updated_at": "2026-08-24T06:46:42.309306-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.793,
@@ -24227,7 +24227,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-08-24T05:24:49.212489-04:00",
+      "updated_at": "2026-08-24T06:46:42.309306-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7585,
@@ -25471,7 +25471,7 @@
       "region": "Roosevelt Island",
       "source": "rioc",
       "updated_at": "2026-08-24T05:25:19.538780-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -25557,12 +25557,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "7:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "7:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "8:00 AM": {
                 "status": "available",
@@ -26101,12 +26101,12 @@
             },
             "Clay: Court 5b": {
               "6:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "7:00 AM": {
                 "status": "booked",
@@ -26523,12 +26523,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "7:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "7:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "8:00 AM": {
                 "status": "available",
@@ -26652,7 +26652,7 @@
               }
             }
           },
-          "available_count": 92
+          "available_count": 86
         },
         {
           "date": "2026-08-25",
@@ -28969,12 +28969,12 @@
           "available_count": 108
         }
       ],
-      "available_total": 300,
+      "available_total": 294,
       "book_kind": "facility",
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-08-24T05:25:38.305768-04:00",
+      "updated_at": "2026-08-24T06:48:17.222052-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
