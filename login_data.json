@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-01T02:30:34.645066-04:00",
+  "generated_at": "2026-09-01T08:35:47.864425-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "stale",
       "last_success": "2026-09-01T01:29:26.189656-04:00",
-      "error": "<urlopen error [Errno 61] Connection refused>",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
       "count": 8
     },
     {
@@ -14,7 +14,7 @@
       "label": "RIOC",
       "status": "stale",
       "last_success": "2026-09-01T01:29:54.923423-04:00",
-      "error": "APIRequestContext.get: connect ECONNREFUSED 192.168.1.1:443\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.136380081.1788108570; .ASPXAUTH=C2D62D97039419443883D727CBEF336BD1D29229779A660522F7CD61BAC6F422A98D724209554F45634D88B004874092D0E55561EB377391732E342D00FF63A5C359DFD4F51E4642946782E7F51FCBA27FAFE6B6D6AD1D4872CF37BE7B7886DAC2DA33EEF03854B1EEB30AC2908BADC455D1563DFF8B4C9C7E2B606F62E764B2355C7BE8; _ga_7PNE7C8PW6=GS2.2.s1788108570$o1$g1$t1788108572$j58$l0$h0\n",
+      "error": "APIRequestContext.get: getaddrinfo ENOTFOUND rioc.civicpermits.com\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.136380081.1788108570; .ASPXAUTH=C2D62D97039419443883D727CBEF336BD1D29229779A660522F7CD61BAC6F422A98D724209554F45634D88B004874092D0E55561EB377391732E342D00FF63A5C359DFD4F51E4642946782E7F51FCBA27FAFE6B6D6AD1D4872CF37BE7B7886DAC2DA33EEF03854B1EEB30AC2908BADC455D1563DFF8B4C9C7E2B606F62E764B2355C7BE8; _ga_7PNE7C8PW6=GS2.2.s1788108570$o1$g1$t1788108572$j58$l0$h0\n",
       "count": 1
     },
     {
@@ -22,7 +22,7 @@
       "label": "Prospect Park",
       "status": "stale",
       "last_success": "2026-09-01T01:30:17.272493-04:00",
-      "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
+      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
       "count": 1
     }
   ],
