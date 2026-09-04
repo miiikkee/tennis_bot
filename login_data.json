@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-04T11:12:56.426368-04:00",
+  "generated_at": "2026-09-04T13:26:06.229825-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-09-04T11:11:02.763988-04:00",
-      "error": null,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
       "count": 8
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-09-04T11:12:32.503861-04:00",
-      "error": null,
+      "error": "APIRequestContext.get: getaddrinfo ENOTFOUND rioc.civicpermits.com\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.1260076111.1788457585; _gid=GA1.2.338696218.1788457585; .ASPXAUTH=310622A5EF3B3D2031878C6BBF4C0D99166DE21058399CE8AE199172244CC1213344CAB42D1AC2F7F5DF90757F8B1AB08D4BC1483603FD93E7D275A1BABFD6585B7788749E1B9363E356183CF45CE756E17CC7FE3AB9F0B75731CBA5961911CAAD870560EC6B1B0E54BE9BA124D0A827C4CC3A0CCA55F4460241C467B9BE9911ECB80FFF; _ga_7PNE7C8PW6=GS2.2.s1788457585$o1$g1$t1788457587$j58$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-09-04T11:12:56.399281-04:00",
-      "error": null,
+      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
       "count": 1
     }
   ],
@@ -13673,7 +13673,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-09-04T11:11:02.763988-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7896,
       "lng": -73.9616
@@ -15886,7 +15886,7 @@
       "region": "Queens",
       "source": "nycparks",
       "updated_at": "2026-09-04T11:11:02.763988-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7466,
       "lng": -73.7553
@@ -17103,7 +17103,7 @@
       "region": "Brooklyn",
       "source": "nycparks",
       "updated_at": "2026-09-04T11:11:02.763988-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7205,
       "lng": -73.9506
@@ -18818,7 +18818,7 @@
       "region": "Bronx",
       "source": "nycparks",
       "updated_at": "2026-09-04T11:11:02.763988-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.8268,
       "lng": -73.9285
@@ -20035,7 +20035,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-09-04T11:11:02.763988-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.796,
       "lng": -73.9772
@@ -21252,7 +21252,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-09-04T11:11:02.763988-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.811,
       "lng": -73.966
@@ -23465,7 +23465,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-09-04T11:11:02.763988-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.793,
       "lng": -73.921
@@ -24682,7 +24682,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-09-04T11:11:02.763988-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7585,
       "lng": -73.96
@@ -25925,7 +25925,7 @@
       "region": "Roosevelt Island",
       "source": "rioc",
       "updated_at": "2026-09-04T11:12:32.503861-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -29297,7 +29297,7 @@
       "region": "Brooklyn",
       "source": "prospect",
       "updated_at": "2026-09-04T11:12:56.399281-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
