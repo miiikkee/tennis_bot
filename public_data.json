@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-04T12:26:46.340268-04:00",
+  "generated_at": "2026-09-04T15:40:11.258542-04:00",
   "sources": [
     {
       "key": "courtreserve",
       "label": "CourtReserve",
       "status": "fresh",
-      "last_success": "2026-09-04T12:26:46.322006-04:00",
+      "last_success": "2026-09-04T15:40:11.241555-04:00",
       "error": null,
       "count": 2
     }
@@ -11979,7 +11979,7 @@
       "site": "USTA",
       "region": "Queens",
       "source": "courtreserve",
-      "updated_at": "2026-09-04T12:26:46.322006-04:00",
+      "updated_at": "2026-09-04T15:40:11.241555-04:00",
       "stale": false,
       "default_type": "",
       "lat": 40.75,
@@ -12045,7 +12045,8 @@
             "9:30 PM",
             "10:00 PM",
             "10:30 PM",
-            "11:00 PM"
+            "11:00 PM",
+            "11:30 PM"
           ],
           "courts": [
             "Edgewater 1",
@@ -12199,6 +12200,10 @@
               "11:00 PM": {
                 "status": "available",
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "11:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 2": {
@@ -12279,8 +12284,8 @@
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "3:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "4:00 PM": {
                 "status": "booked",
@@ -12331,16 +12336,20 @@
                 "href": null
               },
               "10:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "10:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "11:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "11:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 3": {
@@ -12483,6 +12492,10 @@
               "11:00 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "11:30 PM": {
+                "status": "booked",
+                "href": null
               }
             },
             "Edgewater 4": {
@@ -12615,14 +12628,18 @@
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "10:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "10:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "11:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 PM": {
                 "status": "available",
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
@@ -12701,28 +12718,28 @@
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "3:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "3:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "4:00 PM": {
                 "status": "booked",
                 "href": null
               },
-              "4:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
-              },
               "4:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "5:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "5:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "6:00 PM": {
                 "status": "booked",
@@ -12757,14 +12774,18 @@
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "10:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "10:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "11:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 PM": {
                 "status": "available",
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
@@ -12899,14 +12920,18 @@
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "10:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "10:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 PM": {
                 "status": "available",
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
-              "11:00 PM": {
+              "11:30 PM": {
                 "status": "available",
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
@@ -12985,12 +13010,12 @@
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "3:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "3:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "4:00 PM": {
                 "status": "booked",
@@ -13049,6 +13074,10 @@
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "11:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "11:30 PM": {
                 "status": "available",
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
@@ -13193,6 +13222,10 @@
               "11:00 PM": {
                 "status": "available",
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "11:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 9": {
@@ -13335,10 +13368,14 @@
               "11:00 PM": {
                 "status": "available",
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "11:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             }
           },
-          "available_count": 123
+          "available_count": 121
         },
         {
           "date": "2026-09-05",
@@ -13373,7 +13410,11 @@
             "7:00 PM",
             "7:30 PM",
             "8:00 PM",
-            "8:30 PM"
+            "8:30 PM",
+            "9:00 PM",
+            "9:30 PM",
+            "10:00 PM",
+            "10:30 PM"
           ],
           "courts": [
             "Edgewater 1",
@@ -13445,12 +13486,12 @@
                 "href": null
               },
               "1:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "1:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "2:00 PM": {
                 "status": "booked",
@@ -13507,6 +13548,22 @@
               "8:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 2": {
@@ -13629,6 +13686,22 @@
               "8:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 3": {
@@ -13697,12 +13770,12 @@
                 "href": null
               },
               "2:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "2:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "3:00 PM": {
                 "status": "available",
@@ -13749,6 +13822,22 @@
                 "href": null
               },
               "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
                 "status": "booked",
                 "href": null
               }
@@ -13811,12 +13900,12 @@
                 "href": null
               },
               "1:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "1:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "2:00 PM": {
                 "status": "booked",
@@ -13873,6 +13962,22 @@
               "8:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 5": {
@@ -13995,6 +14100,22 @@
               "8:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 6": {
@@ -14047,12 +14168,12 @@
                 "href": null
               },
               "12:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "12:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "1:00 PM": {
                 "status": "booked",
@@ -14063,12 +14184,12 @@
                 "href": null
               },
               "2:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "2:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "3:00 PM": {
                 "status": "booked",
@@ -14117,6 +14238,22 @@
               "8:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 7": {
@@ -14185,12 +14322,12 @@
                 "href": null
               },
               "2:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "2:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "3:00 PM": {
                 "status": "booked",
@@ -14239,6 +14376,22 @@
               "8:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 8": {
@@ -14361,6 +14514,22 @@
               "8:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             },
             "Edgewater 9": {
@@ -14421,12 +14590,12 @@
                 "href": null
               },
               "1:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "1:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "2:00 PM": {
                 "status": "booked",
@@ -14483,10 +14652,26 @@
               "8:30 PM": {
                 "status": "booked",
                 "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "9:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:00 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+              },
+              "10:30 PM": {
+                "status": "available",
+                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               }
             }
           },
-          "available_count": 48
+          "available_count": 70
         },
         {
           "date": "2026-09-06",
@@ -14897,20 +15082,20 @@
                 "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
               },
               "4:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "4:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "5:00 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "5:30 PM": {
-                "status": "available",
-                "href": "https://app.courtreserve.com/Online/Reservations/Bookings/7690?sId=20437"
+                "status": "booked",
+                "href": null
               },
               "6:00 PM": {
                 "status": "booked",
@@ -15782,15 +15967,15 @@
               }
             }
           },
-          "available_count": 85
+          "available_count": 81
         }
       ],
-      "available_total": 256,
+      "available_total": 272,
       "book_kind": "facility",
       "site": "Edgewater",
       "region": "New Jersey",
       "source": "courtreserve",
-      "updated_at": "2026-09-04T12:26:46.322006-04:00",
+      "updated_at": "2026-09-04T15:40:11.241555-04:00",
       "stale": false,
       "default_type": "Indoor",
       "lat": 40.8276,
