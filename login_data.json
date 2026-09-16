@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-16T01:57:41.854919-04:00",
+  "generated_at": "2026-09-16T04:05:26.842847-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-09-16T01:56:50.708296-04:00",
+      "last_success": "2026-09-16T03:49:29.872596-04:00",
       "error": null,
       "count": 6
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-09-16T01:57:20.683416-04:00",
-      "error": null,
+      "error": "APIRequestContext.post: read ECONNRESET\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.93241458.1789511236; _gid=GA1.2.755658640.1789511236; .ASPXAUTH=E196FAA4475A5CBA60B418EA6C94EC682CD8EDB264B3A1C2A5F5399F4B6439E14FF54DAC25B286C12A8D895610B5447F2C01E011A7BA11CE2090F81CAE09BCF3F8D5FAA68BFFA9859FB43858010203484146AD9ABEBF6EEE7C3A4B2983D1EA442736E0EFEB895166258D439FC84C1CE27F172CC433FB70105522FE1AC482849CDE5DBF9D; _ga_7PNE7C8PW6=GS2.2.s1789511236$o1$g1$t1789511239$j57$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-09-16T01:57:41.842924-04:00",
+      "last_success": "2026-09-16T04:05:26.829107-04:00",
       "error": null,
       "count": 1
     }
@@ -5679,8 +5679,8 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/962256"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "available",
@@ -5946,7 +5946,7 @@
               }
             }
           },
-          "available_count": 18
+          "available_count": 17
         },
         {
           "date": "2026-09-30",
@@ -13213,12 +13213,12 @@
           "available_count": 45
         }
       ],
-      "available_total": 410,
+      "available_total": 409,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-09-16T01:56:50.708296-04:00",
+      "updated_at": "2026-09-16T03:49:29.872596-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -15431,7 +15431,7 @@
       "site": "NYC Parks",
       "region": "Queens",
       "source": "nycparks",
-      "updated_at": "2026-09-16T01:56:50.708296-04:00",
+      "updated_at": "2026-09-16T03:49:29.872596-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7466,
@@ -16648,7 +16648,7 @@
       "site": "NYC Parks",
       "region": "Brooklyn",
       "source": "nycparks",
-      "updated_at": "2026-09-16T01:56:50.708296-04:00",
+      "updated_at": "2026-09-16T03:49:29.872596-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7205,
@@ -18363,7 +18363,7 @@
       "site": "NYC Parks",
       "region": "Bronx",
       "source": "nycparks",
-      "updated_at": "2026-09-16T01:56:50.708296-04:00",
+      "updated_at": "2026-09-16T03:49:29.872596-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.8268,
@@ -19580,7 +19580,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-09-16T01:56:50.708296-04:00",
+      "updated_at": "2026-09-16T03:49:29.872596-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
@@ -20797,7 +20797,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-09-16T01:56:50.708296-04:00",
+      "updated_at": "2026-09-16T03:49:29.872596-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
@@ -22041,7 +22041,7 @@
       "region": "Roosevelt Island",
       "source": "rioc",
       "updated_at": "2026-09-16T01:57:20.683416-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -25478,7 +25478,7 @@
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-09-16T01:57:41.842924-04:00",
+      "updated_at": "2026-09-16T04:05:26.829107-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
