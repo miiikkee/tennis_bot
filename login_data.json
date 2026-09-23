@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-23T07:35:10.859759-04:00",
+  "generated_at": "2026-09-23T10:44:44.963279-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-09-23T07:22:48.745997-04:00",
+      "last_success": "2026-09-23T10:42:46.924561-04:00",
       "error": null,
       "count": 5
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "stale",
-      "last_success": "2026-09-22T23:42:44.264487-04:00",
-      "error": "APIRequestContext.post: read ECONNRESET\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.1858064501.1790100364; _gid=GA1.2.89599138.1790100364; .ASPXAUTH=870DCF39F523F16CF72FEA2E5D2E7FF9EBEF3C0D98DC3974E3D1639AF30C748070EAED8B9F819372EF72818B5A232F17B78C58C8B0CAD355D1EFDEEE45D927CDD7840123D90F5CD6BF117CC64CEA588B78EAF94F8C7C0B9D4524597F0969E25A43CA195A92996C4E23FB7D75CE3DE1FD2D4538477FDF76F1A733641926819BF13EA8830D; _ga_7PNE7C8PW6=GS2.2.s1790100364$o1$g1$t1790100366$j58$l0$h0\n",
+      "status": "fresh",
+      "last_success": "2026-09-23T10:44:24.172624-04:00",
+      "error": null,
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-09-23T07:35:10.845126-04:00",
+      "last_success": "2026-09-23T10:44:44.944839-04:00",
       "error": null,
       "count": 1
     }
@@ -1279,8 +1279,8 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/962993"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "booked",
@@ -1406,7 +1406,7 @@
               }
             }
           },
-          "available_count": 1
+          "available_count": 0
         },
         {
           "date": "2026-09-27",
@@ -1981,7 +1981,7 @@
                 "href": null
               },
               "10:00 a.m.": {
-                "status": "unavailable",
+                "status": "booked",
                 "href": null
               },
               "11:00 a.m.": {
@@ -3033,8 +3033,8 @@
                 "href": null
               },
               "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/962654"
+                "status": "booked",
+                "href": null
               },
               "12:00 p.m.": {
                 "status": "unavailable",
@@ -3222,7 +3222,7 @@
               }
             }
           },
-          "available_count": 9
+          "available_count": 8
         },
         {
           "date": "2026-10-01",
@@ -3293,8 +3293,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961512"
               },
               "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/961513"
+                "status": "booked",
+                "href": null
               },
               "4:00 p.m.": {
                 "status": "unavailable",
@@ -3676,7 +3676,7 @@
               }
             }
           },
-          "available_count": 8
+          "available_count": 7
         },
         {
           "date": "2026-10-02",
@@ -6063,8 +6063,8 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963807"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "available",
@@ -6400,7 +6400,7 @@
               }
             }
           },
-          "available_count": 21
+          "available_count": 20
         },
         {
           "date": "2026-10-08",
@@ -9025,8 +9025,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964802"
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964803"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -9124,7 +9124,7 @@
               }
             }
           },
-          "available_count": 33
+          "available_count": 32
         },
         {
           "date": "2026-10-14",
@@ -9521,8 +9521,8 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/965116"
+                "status": "unavailable",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "available",
@@ -9578,7 +9578,7 @@
               }
             }
           },
-          "available_count": 24
+          "available_count": 23
         },
         {
           "date": "2026-10-15",
@@ -9617,8 +9617,8 @@
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963585"
+                "status": "booked",
+                "href": null
               },
               "8:00 a.m.": {
                 "status": "available",
@@ -9629,8 +9629,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963587"
               },
               "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963588"
+                "status": "booked",
+                "href": null
               },
               "11:00 a.m.": {
                 "status": "available",
@@ -10032,7 +10032,7 @@
               }
             }
           },
-          "available_count": 36
+          "available_count": 34
         },
         {
           "date": "2026-10-16",
@@ -10665,8 +10665,8 @@
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964223"
               },
               "8:00 a.m.": {
                 "status": "booked",
@@ -10940,7 +10940,7 @@
               }
             }
           },
-          "available_count": 2
+          "available_count": 3
         },
         {
           "date": "2026-10-18",
@@ -11783,8 +11783,8 @@
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/965169"
+                "status": "booked",
+                "href": null
               },
               "8:00 a.m.": {
                 "status": "available",
@@ -11848,7 +11848,7 @@
               }
             }
           },
-          "available_count": 33
+          "available_count": 32
         },
         {
           "date": "2026-10-20",
@@ -12795,8 +12795,8 @@
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963662"
+                "status": "booked",
+                "href": null
               },
               "8:00 a.m.": {
                 "status": "booked",
@@ -12807,8 +12807,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963664"
               },
               "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963665"
+                "status": "booked",
+                "href": null
               },
               "11:00 a.m.": {
                 "status": "available",
@@ -13145,8 +13145,8 @@
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/965202"
+                "status": "booked",
+                "href": null
               },
               "8:00 a.m.": {
                 "status": "available",
@@ -13210,7 +13210,7 @@
               }
             }
           },
-          "available_count": 44
+          "available_count": 41
         },
         {
           "date": "2026-10-23",
@@ -13289,8 +13289,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963681"
               },
               "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963682"
+                "status": "booked",
+                "href": null
               },
               "6:00 p.m.": {
                 "status": "unavailable",
@@ -13319,8 +13319,8 @@
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963981"
+                "status": "booked",
+                "href": null
               },
               "8:00 a.m.": {
                 "status": "available",
@@ -13359,8 +13359,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963989"
               },
               "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963990"
+                "status": "booked",
+                "href": null
               },
               "6:00 p.m.": {
                 "status": "unavailable",
@@ -13393,8 +13393,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964289"
               },
               "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964290"
+                "status": "booked",
+                "href": null
               },
               "9:00 a.m.": {
                 "status": "available",
@@ -13429,8 +13429,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964297"
               },
               "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964298"
+                "status": "booked",
+                "href": null
               },
               "6:00 p.m.": {
                 "status": "unavailable",
@@ -13495,12 +13495,12 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964604"
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964605"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964606"
+                "status": "booked",
+                "href": null
               },
               "6:00 p.m.": {
                 "status": "unavailable",
@@ -13599,8 +13599,8 @@
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/965213"
+                "status": "booked",
+                "href": null
               },
               "8:00 a.m.": {
                 "status": "available",
@@ -13664,15 +13664,15 @@
               }
             }
           },
-          "available_count": 52
+          "available_count": 44
         }
       ],
-      "available_total": 478,
+      "available_total": 459,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-09-23T07:22:48.745997-04:00",
+      "updated_at": "2026-09-23T10:42:46.924561-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -15885,7 +15885,7 @@
       "site": "NYC Parks",
       "region": "Queens",
       "source": "nycparks",
-      "updated_at": "2026-09-23T07:22:48.745997-04:00",
+      "updated_at": "2026-09-23T10:42:46.924561-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7466,
@@ -16762,8 +16762,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/713347"
               },
               "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/713350"
+                "status": "booked",
+                "href": null
               },
               "3:00 p.m.": {
                 "status": "booked",
@@ -16840,8 +16840,8 @@
                 "href": null
               },
               "4:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/713357"
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -17600,7 +17600,7 @@
       "site": "NYC Parks",
       "region": "Bronx",
       "source": "nycparks",
-      "updated_at": "2026-09-23T07:22:48.745997-04:00",
+      "updated_at": "2026-09-23T10:42:46.924561-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.8268,
@@ -17728,8 +17728,8 @@
                 "href": null
               },
               "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714146"
+                "status": "booked",
+                "href": null
               },
               "9:00 a.m.": {
                 "status": "booked",
@@ -17789,7 +17789,7 @@
               }
             }
           },
-          "available_count": 1
+          "available_count": 0
         },
         {
           "date": "2026-09-25",
@@ -18516,8 +18516,8 @@
                 "href": null
               },
               "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714271"
+                "status": "booked",
+                "href": null
               },
               "11:00 a.m.": {
                 "status": "booked",
@@ -18639,7 +18639,7 @@
               }
             }
           },
-          "available_count": 8
+          "available_count": 7
         },
         {
           "date": "2026-09-30",
@@ -18674,16 +18674,16 @@
                 "href": null
               },
               "7:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714289"
+                "status": "booked",
+                "href": null
               },
               "8:00 a.m.": {
                 "status": "booked",
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714293"
+                "status": "unavailable",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "available",
@@ -18764,8 +18764,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/714296"
               },
               "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714298"
+                "status": "booked",
+                "href": null
               },
               "1:00 p.m.": {
                 "status": "available",
@@ -18780,8 +18780,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/714304"
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714306"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -18809,15 +18809,15 @@
               }
             }
           },
-          "available_count": 16
+          "available_count": 12
         }
       ],
-      "available_total": 31,
+      "available_total": 25,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-09-23T07:22:48.745997-04:00",
+      "updated_at": "2026-09-23T10:42:46.924561-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
@@ -19899,12 +19899,12 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715536"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715538"
+                "status": "booked",
+                "href": null
               },
               "11:00 a.m.": {
                 "status": "available",
@@ -20026,15 +20026,15 @@
               }
             }
           },
-          "available_count": 16
+          "available_count": 14
         }
       ],
-      "available_total": 46,
+      "available_total": 44,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-09-23T07:22:48.745997-04:00",
+      "updated_at": "2026-09-23T10:42:46.924561-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
@@ -20059,410 +20059,6 @@
         "6"
       ],
       "dates": [
-        {
-          "date": "2026-09-23",
-          "label": "Wednesday, September 23, 2026",
-          "times": [
-            "7:00 AM",
-            "8:00 AM",
-            "9:00 AM",
-            "10:00 AM",
-            "11:00 AM",
-            "12:00 PM",
-            "1:00 PM",
-            "2:00 PM",
-            "3:00 PM",
-            "4:00 PM",
-            "5:00 PM",
-            "6:00 PM",
-            "7:00 PM",
-            "8:00 PM",
-            "9:00 PM"
-          ],
-          "courts": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"
-          ],
-          "grid": {
-            "1": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "12:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "2": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "3": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "4": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "5": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "6": {
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              }
-            }
-          },
-          "available_count": 10
-        },
         {
           "date": "2026-09-24",
           "label": "Thursday, September 24, 2026",
@@ -20898,6 +20494,410 @@
           "grid": {
             "1": {
               "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "2": {
+              "7:00 AM": {
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
+              },
+              "8:00 AM": {
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
+              }
+            },
+            "3": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "4": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "5": {
+              "7:00 AM": {
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "6": {
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              }
+            }
+          },
+          "available_count": 8
+        },
+        {
+          "date": "2026-09-26",
+          "label": "Saturday, September 26, 2026",
+          "times": [
+            "7:00 AM",
+            "8:00 AM",
+            "9:00 AM",
+            "10:00 AM",
+            "11:00 AM",
+            "12:00 PM",
+            "1:00 PM",
+            "2:00 PM",
+            "3:00 PM",
+            "4:00 PM",
+            "5:00 PM",
+            "6:00 PM",
+            "7:00 PM",
+            "8:00 PM",
+            "9:00 PM"
+          ],
+          "courts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "grid": {
+            "1": {
+              "7:00 AM": {
                 "status": "available",
                 "href": "https://rioc.civicpermits.com"
               },
@@ -20910,16 +20910,16 @@
                 "href": "https://rioc.civicpermits.com"
               },
               "10:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "11:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "12:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "1:00 PM": {
                 "status": "available",
@@ -20972,16 +20972,16 @@
                 "href": "https://rioc.civicpermits.com"
               },
               "10:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "11:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "12:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "1:00 PM": {
                 "status": "available",
@@ -21034,16 +21034,16 @@
                 "href": "https://rioc.civicpermits.com"
               },
               "10:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "11:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "12:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "1:00 PM": {
                 "status": "available",
@@ -21112,8 +21112,8 @@
                 "href": "https://rioc.civicpermits.com"
               },
               "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "3:00 PM": {
                 "status": "booked",
@@ -21124,8 +21124,8 @@
                 "href": null
               },
               "5:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "6:00 PM": {
                 "status": "available",
@@ -21174,8 +21174,8 @@
                 "href": "https://rioc.civicpermits.com"
               },
               "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "3:00 PM": {
                 "status": "booked",
@@ -21186,8 +21186,8 @@
                 "href": null
               },
               "5:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "6:00 PM": {
                 "status": "available",
@@ -21236,8 +21236,8 @@
                 "href": "https://rioc.civicpermits.com"
               },
               "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "3:00 PM": {
                 "status": "booked",
@@ -21248,8 +21248,8 @@
                 "href": null
               },
               "5:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "6:00 PM": {
                 "status": "available",
@@ -21269,16 +21269,16 @@
               }
             }
           },
-          "available_count": 81
+          "available_count": 72
         }
       ],
-      "available_total": 94,
+      "available_total": 83,
       "book_kind": "facility",
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-09-22T23:42:44.264487-04:00",
-      "stale": true,
+      "updated_at": "2026-09-23T10:44:24.172624-04:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -21800,12 +21800,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "2:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "2:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "3:00 PM": {
                 "status": "booked",
@@ -21898,12 +21898,12 @@
                 "href": null
               },
               "10:00 AM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "10:30 AM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "11:00 AM": {
                 "status": "booked",
@@ -22174,12 +22174,12 @@
                 "href": null
               },
               "12:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "12:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "1:00 PM": {
                 "status": "booked",
@@ -22288,12 +22288,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "10:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "10:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "11:00 AM": {
                 "status": "available",
@@ -22393,7 +22393,7 @@
               }
             }
           },
-          "available_count": 55
+          "available_count": 51
         },
         {
           "date": "2026-09-24",
@@ -23151,12 +23151,12 @@
                 "href": null
               },
               "2:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "2:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "3:00 PM": {
                 "status": "booked",
@@ -23484,7 +23484,7 @@
               }
             }
           },
-          "available_count": 66
+          "available_count": 68
         },
         {
           "date": "2026-09-25",
@@ -23974,12 +23974,12 @@
                 "href": null
               },
               "1:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "1:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "2:00 PM": {
                 "status": "booked",
@@ -24575,7 +24575,7 @@
               }
             }
           },
-          "available_count": 56
+          "available_count": 58
         }
       ],
       "available_total": 177,
@@ -24583,7 +24583,7 @@
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-09-23T07:35:10.845126-04:00",
+      "updated_at": "2026-09-23T10:44:44.944839-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
