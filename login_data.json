@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-03T21:45:21.982504-04:00",
+  "generated_at": "2026-10-04T20:47:49.212984-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-10-03T21:44:25.674786-04:00",
-      "error": null,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
       "count": 5
     },
     {
@@ -14,15 +14,15 @@
       "label": "RIOC",
       "status": "stale",
       "last_success": "2026-10-03T11:56:04.391403-04:00",
-      "error": "APIRequestContext.post: read ECONNRESET\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.1784134616.1790919707; .ASPXAUTH=E659D85CCAB556B34949D94519217D908020EA7FEC93F6CFEEE39627728D6DCEF96666281E58D2684C8ABACB2734E3B772D98B9CBD2F051431D28E7CB3E113CA7B7F1144072C8DD24F48E68D4AC45ED6ECE7A83BFA2B9663923C1D11A4BD423E3D286FEBBDE419BE2A96CCA2413448602A9B81BFA6CF1554596BE954AA8AC1C46D6635E4; _ga_7PNE7C8PW6=GS2.2.s1790919706$o1$g1$t1790919708$j58$l0$h0\n",
+      "error": "APIRequestContext.get: getaddrinfo ENOTFOUND rioc.civicpermits.com\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.1784134616.1790919707; _ga_7PNE7C8PW6=GS2.2.s1790919706$o1$g1$t1790919708$j58$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-10-03T21:45:21.966597-04:00",
-      "error": null,
+      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
       "count": 1
     }
   ],
@@ -13673,7 +13673,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-10-03T21:44:25.674786-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7896,
       "lng": -73.9616
@@ -15886,7 +15886,7 @@
       "region": "Queens",
       "source": "nycparks",
       "updated_at": "2026-10-03T21:44:25.674786-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7466,
       "lng": -73.7553
@@ -17601,7 +17601,7 @@
       "region": "Bronx",
       "source": "nycparks",
       "updated_at": "2026-10-03T21:44:25.674786-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.8268,
       "lng": -73.9285
@@ -18818,7 +18818,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-10-03T21:44:25.674786-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.796,
       "lng": -73.9772
@@ -20035,7 +20035,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-10-03T21:44:25.674786-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.811,
       "lng": -73.966
@@ -24650,7 +24650,7 @@
       "region": "Brooklyn",
       "source": "prospect",
       "updated_at": "2026-10-03T21:45:21.966597-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
