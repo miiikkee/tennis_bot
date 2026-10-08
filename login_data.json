@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-07T18:57:59.019824-04:00",
+  "generated_at": "2026-10-08T02:44:14.411595-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-10-07T18:56:57.347341-04:00",
+      "last_success": "2026-10-08T02:40:56.860897-04:00",
       "error": null,
       "count": 3
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-10-07T18:57:38.838470-04:00",
-      "error": null,
+      "error": "APIRequestContext.post: read ECONNRESET\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.2049740019.1791358145; _gid=GA1.2.2097643787.1791358145; .ASPXAUTH=A8C1B755365756ADB3CF7404DC88FA6B7C94245A2E565CD6D026D8ABA976979C3D43B7057275ADF429D05278D871260584F6AD2AC4086F5DC3C6626B8A5EC01C41C19C7D2D99A0053F4E7FF626DE2F36382513FA0A1C0719FEDD8FBD16D3ACCA3F29FAE6BB6E20EC787E51E1913E452D21F3D815938E7A7EF5AD08EDAB6FE89B72B88199; _ga_7PNE7C8PW6=GS2.2.s1791358145$o1$g1$t1791358147$j58$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-10-07T18:57:59.002343-04:00",
+      "last_success": "2026-10-08T02:44:14.386478-04:00",
       "error": null,
       "count": 1
     }
@@ -46,460 +46,6 @@
         "24"
       ],
       "dates": [
-        {
-          "date": "2026-10-08",
-          "label": "Thursday, October 08, 2026",
-          "times": [
-            "6:00 a.m.",
-            "7:00 a.m.",
-            "8:00 a.m.",
-            "9:00 a.m.",
-            "10:00 a.m.",
-            "11:00 a.m.",
-            "12:00 p.m.",
-            "1:00 p.m.",
-            "2:00 p.m.",
-            "3:00 p.m.",
-            "4:00 p.m.",
-            "5:00 p.m.",
-            "6:00 p.m.",
-            "7:00 p.m.",
-            "8:00 p.m.",
-            "9:00 p.m.",
-            "10:00 p.m."
-          ],
-          "courts": [
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24"
-          ],
-          "grid": {
-            "19": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "20": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "21": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "22": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "23": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "24": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            }
-          },
-          "available_count": 0
-        },
         {
           "date": "2026-10-09",
           "label": "Friday, October 09, 2026",
@@ -2571,8 +2117,8 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964489"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "booked",
@@ -2768,7 +2314,7 @@
               }
             }
           },
-          "available_count": 3
+          "available_count": 2
         },
         {
           "date": "2026-10-14",
@@ -5617,8 +5163,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963951"
               },
               "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963952"
+                "status": "booked",
+                "href": null
               },
               "12:00 p.m.": {
                 "status": "unavailable",
@@ -5946,7 +5492,7 @@
               }
             }
           },
-          "available_count": 21
+          "available_count": 20
         },
         {
           "date": "2026-10-21",
@@ -6975,8 +6521,8 @@
                 "href": null
               },
               "10:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963984"
               },
               "11:00 a.m.": {
                 "status": "booked",
@@ -7308,7 +6854,7 @@
               }
             }
           },
-          "available_count": 6
+          "available_count": 7
         },
         {
           "date": "2026-10-24",
@@ -9237,8 +8783,8 @@
                 "href": null
               },
               "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964037"
+                "status": "booked",
+                "href": null
               },
               "9:00 a.m.": {
                 "status": "available",
@@ -9578,7 +9124,7 @@
               }
             }
           },
-          "available_count": 35
+          "available_count": 34
         },
         {
           "date": "2026-10-29",
@@ -13393,8 +12939,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reservecp/965499"
               },
               "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/965500"
+                "status": "booked",
+                "href": null
               },
               "9:00 a.m.": {
                 "status": "available",
@@ -13664,15 +13210,15 @@
               }
             }
           },
-          "available_count": 34
+          "available_count": 33
         }
       ],
-      "available_total": 478,
+      "available_total": 475,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-07T18:56:57.347341-04:00",
+      "updated_at": "2026-10-08T02:40:56.860897-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -13693,176 +13239,6 @@
         "9"
       ],
       "dates": [
-        {
-          "date": "2026-10-08",
-          "label": "Thursday, October 08, 2026",
-          "times": [
-            "6:00 a.m.",
-            "7:00 a.m.",
-            "8:00 a.m.",
-            "9:00 a.m.",
-            "10:00 a.m.",
-            "11:00 a.m.",
-            "12:00 p.m.",
-            "1:00 p.m.",
-            "2:00 p.m.",
-            "3:00 p.m.",
-            "4:00 p.m.",
-            "5:00 p.m.",
-            "6:00 p.m.",
-            "7:00 p.m.",
-            "8:00 p.m.",
-            "9:00 p.m.",
-            "10:00 p.m."
-          ],
-          "courts": [
-            "10",
-            "9"
-          ],
-          "grid": {
-            "10": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "9": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            }
-          },
-          "available_count": 0
-        },
         {
           "date": "2026-10-09",
           "label": "Friday, October 09, 2026",
@@ -14882,14 +14258,184 @@
             }
           },
           "available_count": 6
+        },
+        {
+          "date": "2026-10-15",
+          "label": "Thursday, October 15, 2026",
+          "times": [
+            "6:00 a.m.",
+            "7:00 a.m.",
+            "8:00 a.m.",
+            "9:00 a.m.",
+            "10:00 a.m.",
+            "11:00 a.m.",
+            "12:00 p.m.",
+            "1:00 p.m.",
+            "2:00 p.m.",
+            "3:00 p.m.",
+            "4:00 p.m.",
+            "5:00 p.m.",
+            "6:00 p.m.",
+            "7:00 p.m.",
+            "8:00 p.m.",
+            "9:00 p.m.",
+            "10:00 p.m."
+          ],
+          "courts": [
+            "10",
+            "9"
+          ],
+          "grid": {
+            "10": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714649"
+              },
+              "8:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714651"
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714653"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714655"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714657"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714659"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714661"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714663"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714665"
+              },
+              "4:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714667"
+              },
+              "5:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "9": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714648"
+              },
+              "8:00 a.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714652"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714654"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714656"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714658"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714660"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714662"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714664"
+              },
+              "4:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714666"
+              },
+              "5:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            }
+          },
+          "available_count": 19
         }
       ],
-      "available_total": 9,
+      "available_total": 28,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-07T18:56:57.347341-04:00",
+      "updated_at": "2026-10-08T02:40:56.860897-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
@@ -14911,8 +14457,8 @@
       ],
       "dates": [
         {
-          "date": "2026-10-08",
-          "label": "Thursday, October 08, 2026",
+          "date": "2026-10-09",
+          "label": "Friday, October 09, 2026",
           "times": [
             "6:00 a.m.",
             "7:00 a.m.",
@@ -15079,176 +14625,6 @@
             }
           },
           "available_count": 0
-        },
-        {
-          "date": "2026-10-09",
-          "label": "Friday, October 09, 2026",
-          "times": [
-            "6:00 a.m.",
-            "7:00 a.m.",
-            "8:00 a.m.",
-            "9:00 a.m.",
-            "10:00 a.m.",
-            "11:00 a.m.",
-            "12:00 p.m.",
-            "1:00 p.m.",
-            "2:00 p.m.",
-            "3:00 p.m.",
-            "4:00 p.m.",
-            "5:00 p.m.",
-            "6:00 p.m.",
-            "7:00 p.m.",
-            "8:00 p.m.",
-            "9:00 p.m.",
-            "10:00 p.m."
-          ],
-          "courts": [
-            "3",
-            "5"
-          ],
-          "grid": {
-            "3": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            },
-            "5": {
-              "6:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 a.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 a.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715713"
-              },
-              "5:00 p.m.": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "7:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "8:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "9:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              },
-              "10:00 p.m.": {
-                "status": "unavailable",
-                "href": null
-              }
-            }
-          },
-          "available_count": 1
         },
         {
           "date": "2026-10-10",
@@ -16099,14 +15475,184 @@
             }
           },
           "available_count": 13
+        },
+        {
+          "date": "2026-10-15",
+          "label": "Thursday, October 15, 2026",
+          "times": [
+            "6:00 a.m.",
+            "7:00 a.m.",
+            "8:00 a.m.",
+            "9:00 a.m.",
+            "10:00 a.m.",
+            "11:00 a.m.",
+            "12:00 p.m.",
+            "1:00 p.m.",
+            "2:00 p.m.",
+            "3:00 p.m.",
+            "4:00 p.m.",
+            "5:00 p.m.",
+            "6:00 p.m.",
+            "7:00 p.m.",
+            "8:00 p.m.",
+            "9:00 p.m.",
+            "10:00 p.m."
+          ],
+          "courts": [
+            "3",
+            "5"
+          ],
+          "grid": {
+            "3": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715806"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715808"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715810"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715812"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715814"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715816"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715818"
+              },
+              "4:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "5": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715807"
+              },
+              "10:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715809"
+              },
+              "11:00 a.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715811"
+              },
+              "12:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715813"
+              },
+              "1:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715815"
+              },
+              "2:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715817"
+              },
+              "3:00 p.m.": {
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715819"
+              },
+              "4:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            }
+          },
+          "available_count": 14
         }
       ],
-      "available_total": 25,
+      "available_total": 38,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-07T18:56:57.347341-04:00",
+      "updated_at": "2026-10-08T02:40:56.860897-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
@@ -17350,7 +16896,7 @@
       "region": "Roosevelt Island",
       "source": "rioc",
       "updated_at": "2026-10-07T18:57:38.838470-04:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -17376,1163 +16922,6 @@
         "Hard: Court 4a"
       ],
       "dates": [
-        {
-          "date": "2026-10-07",
-          "label": "Wednesday, October 07, 2026",
-          "times": [
-            "6:00 AM",
-            "6:30 AM",
-            "7:00 AM",
-            "7:30 AM",
-            "8:00 AM",
-            "8:30 AM",
-            "9:00 AM",
-            "9:30 AM",
-            "10:00 AM",
-            "10:30 AM",
-            "11:00 AM",
-            "11:30 AM",
-            "12:00 PM",
-            "12:30 PM",
-            "1:00 PM",
-            "1:30 PM",
-            "2:00 PM",
-            "2:30 PM",
-            "3:00 PM",
-            "3:30 PM",
-            "4:00 PM",
-            "4:30 PM",
-            "5:00 PM",
-            "5:30 PM",
-            "6:00 PM",
-            "6:30 PM",
-            "7:00 PM",
-            "7:30 PM",
-            "8:00 PM",
-            "8:30 PM",
-            "9:00 PM",
-            "9:30 PM",
-            "10:00 PM",
-            "10:30 PM"
-          ],
-          "courts": [
-            "Clay: Court 3a",
-            "Clay: Court 2a",
-            "Clay: Court 1a",
-            "Clay: Court 4b",
-            "Clay: Court 5b",
-            "Clay: Court 6b",
-            "Hard: Court 5a",
-            "Hard: Court 4a"
-          ],
-          "grid": {
-            "Clay: Court 3a": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 2a": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 1a": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 4b": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 5b": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Clay: Court 6b": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Hard: Court 5a": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            },
-            "Hard: Court 4a": {
-              "6:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:00 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "11:30 AM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "12:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "1:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "2:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "3:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "4:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "5:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "6:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "7:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "8:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "9:30 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:00 PM": {
-                "status": "booked",
-                "href": null
-              },
-              "10:30 PM": {
-                "status": "booked",
-                "href": null
-              }
-            }
-          },
-          "available_count": 0
-        },
         {
           "date": "2026-10-08",
           "label": "Thursday, October 08, 2026",
@@ -20846,6 +19235,1163 @@
             }
           },
           "available_count": 0
+        },
+        {
+          "date": "2026-10-10",
+          "label": "Saturday, October 10, 2026",
+          "times": [
+            "6:00 AM",
+            "6:30 AM",
+            "7:00 AM",
+            "7:30 AM",
+            "8:00 AM",
+            "8:30 AM",
+            "9:00 AM",
+            "9:30 AM",
+            "10:00 AM",
+            "10:30 AM",
+            "11:00 AM",
+            "11:30 AM",
+            "12:00 PM",
+            "12:30 PM",
+            "1:00 PM",
+            "1:30 PM",
+            "2:00 PM",
+            "2:30 PM",
+            "3:00 PM",
+            "3:30 PM",
+            "4:00 PM",
+            "4:30 PM",
+            "5:00 PM",
+            "5:30 PM",
+            "6:00 PM",
+            "6:30 PM",
+            "7:00 PM",
+            "7:30 PM",
+            "8:00 PM",
+            "8:30 PM",
+            "9:00 PM",
+            "9:30 PM",
+            "10:00 PM",
+            "10:30 PM"
+          ],
+          "courts": [
+            "Clay: Court 3a",
+            "Clay: Court 2a",
+            "Clay: Court 1a",
+            "Clay: Court 4b",
+            "Clay: Court 5b",
+            "Clay: Court 6b",
+            "Hard: Court 5a",
+            "Hard: Court 4a"
+          ],
+          "grid": {
+            "Clay: Court 3a": {
+              "6:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Clay: Court 2a": {
+              "6:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Clay: Court 1a": {
+              "6:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Clay: Court 4b": {
+              "6:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Clay: Court 5b": {
+              "6:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Clay: Court 6b": {
+              "6:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Hard: Court 5a": {
+              "6:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            },
+            "Hard: Court 4a": {
+              "6:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:00 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "11:30 AM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "12:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "1:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "2:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "3:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "4:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "5:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "6:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "7:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "8:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "9:30 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:00 PM": {
+                "status": "booked",
+                "href": null
+              },
+              "10:30 PM": {
+                "status": "booked",
+                "href": null
+              }
+            }
+          },
+          "available_count": 0
         }
       ],
       "available_total": 0,
@@ -20853,7 +20399,7 @@
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-10-07T18:57:59.002343-04:00",
+      "updated_at": "2026-10-08T02:44:14.386478-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
