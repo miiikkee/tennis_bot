@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-10T07:19:51.590892-04:00",
+  "generated_at": "2026-10-10T08:21:00.628084-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-10-10T07:18:59.898393-04:00",
+      "last_success": "2026-10-10T08:20:04.592546-04:00",
       "error": null,
       "count": 3
     },
@@ -13,7 +13,7 @@
       "key": "rioc",
       "label": "RIOC",
       "status": "fresh",
-      "last_success": "2026-10-10T07:19:31.607496-04:00",
+      "last_success": "2026-10-10T08:20:40.828560-04:00",
       "error": null,
       "count": 1
     },
@@ -367,8 +367,8 @@
                 "href": null
               },
               "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/964774"
+                "status": "booked",
+                "href": null
               },
               "9:00 a.m.": {
                 "status": "booked",
@@ -498,7 +498,7 @@
               }
             }
           },
-          "available_count": 1
+          "available_count": 0
         },
         {
           "date": "2026-10-12",
@@ -1977,8 +1977,8 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963895"
               },
               "10:00 a.m.": {
                 "status": "booked",
@@ -2314,7 +2314,7 @@
               }
             }
           },
-          "available_count": 1
+          "available_count": 2
         },
         {
           "date": "2026-10-16",
@@ -13672,7 +13672,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-10T07:18:59.898393-04:00",
+      "updated_at": "2026-10-10T08:20:04.592546-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -14889,7 +14889,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-10T07:18:59.898393-04:00",
+      "updated_at": "2026-10-10T08:20:04.592546-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
@@ -16106,7 +16106,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-10T07:18:59.898393-04:00",
+      "updated_at": "2026-10-10T08:20:04.592546-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
@@ -16854,8 +16854,8 @@
                 "href": "https://rioc.civicpermits.com"
               },
               "5:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "6:00 PM": {
                 "status": "booked",
@@ -16937,7 +16937,7 @@
               }
             }
           },
-          "available_count": 18
+          "available_count": 17
         },
         {
           "date": "2026-10-13",
@@ -17344,12 +17344,12 @@
           "available_count": 40
         }
       ],
-      "available_total": 60,
+      "available_total": 59,
       "book_kind": "facility",
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-10-10T07:19:31.607496-04:00",
+      "updated_at": "2026-10-10T08:20:40.828560-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
