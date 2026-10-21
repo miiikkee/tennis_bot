@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-21T16:20:20.841039-04:00",
+  "generated_at": "2026-10-21T17:21:27.357530-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-10-21T16:19:13.111145-04:00",
+      "last_success": "2026-10-21T17:20:33.709325-04:00",
       "error": null,
       "count": 3
     },
@@ -13,7 +13,7 @@
       "key": "rioc",
       "label": "RIOC",
       "status": "fresh",
-      "last_success": "2026-10-21T16:20:00.921951-04:00",
+      "last_success": "2026-10-21T17:21:06.717583-04:00",
       "error": null,
       "count": 1
     },
@@ -21,7 +21,7 @@
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-10-21T16:20:20.823749-04:00",
+      "last_success": "2026-10-21T17:21:27.340979-04:00",
       "error": null,
       "count": 1
     }
@@ -13672,7 +13672,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-21T16:19:13.111145-04:00",
+      "updated_at": "2026-10-21T17:20:33.709325-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -14678,12 +14678,12 @@
                 "href": null
               },
               "3:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714952"
+                "status": "booked",
+                "href": null
               },
               "4:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714954"
+                "status": "booked",
+                "href": null
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -14711,7 +14711,7 @@
               }
             }
           },
-          "available_count": 13
+          "available_count": 11
         },
         {
           "date": "2026-10-28",
@@ -14778,12 +14778,12 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/714975"
               },
               "3:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714977"
               },
               "4:00 p.m.": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714979"
               },
               "5:00 p.m.": {
                 "status": "booked",
@@ -14881,7 +14881,7 @@
               }
             }
           },
-          "available_count": 8
+          "available_count": 10
         }
       ],
       "available_total": 26,
@@ -14889,7 +14889,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-21T16:19:13.111145-04:00",
+      "updated_at": "2026-10-21T17:20:33.709325-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
@@ -14959,8 +14959,8 @@
                 "href": null
               },
               "11:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715936"
+                "status": "booked",
+                "href": null
               },
               "12:00 p.m.": {
                 "status": "available",
@@ -15078,7 +15078,7 @@
               }
             }
           },
-          "available_count": 8
+          "available_count": 7
         },
         {
           "date": "2026-10-23",
@@ -16101,12 +16101,12 @@
           "available_count": 13
         }
       ],
-      "available_total": 44,
+      "available_total": 43,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-21T16:19:13.111145-04:00",
+      "updated_at": "2026-10-21T17:20:33.709325-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
@@ -16434,8 +16434,8 @@
                 "href": null
               },
               "1:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "2:00 PM": {
                 "status": "booked",
@@ -16492,12 +16492,12 @@
                 "href": null
               },
               "12:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "1:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "2:00 PM": {
                 "status": "booked",
@@ -16533,7 +16533,7 @@
               }
             }
           },
-          "available_count": 12
+          "available_count": 15
         },
         {
           "date": "2026-10-23",
@@ -17344,12 +17344,12 @@
           "available_count": 72
         }
       ],
-      "available_total": 96,
+      "available_total": 99,
       "book_kind": "facility",
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-10-21T16:20:00.921951-04:00",
+      "updated_at": "2026-10-21T17:21:06.717583-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
@@ -19056,12 +19056,12 @@
                 "href": null
               },
               "12:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "12:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "1:00 PM": {
                 "status": "available",
@@ -19242,12 +19242,12 @@
                 "href": null
               },
               "6:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "6:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "7:00 PM": {
                 "status": "booked",
@@ -19486,20 +19486,20 @@
                 "href": null
               },
               "2:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "2:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "3:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "3:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "4:00 PM": {
                 "status": "booked",
@@ -20484,12 +20484,12 @@
                 "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "6:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "6:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "7:00 PM": {
                 "status": "booked",
@@ -20525,7 +20525,7 @@
               }
             }
           },
-          "available_count": 98
+          "available_count": 104
         },
         {
           "date": "2026-10-23",
@@ -22102,12 +22102,12 @@
           "available_count": 76
         }
       ],
-      "available_total": 277,
+      "available_total": 283,
       "book_kind": "facility",
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-10-21T16:20:20.823749-04:00",
+      "updated_at": "2026-10-21T17:21:27.340979-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
