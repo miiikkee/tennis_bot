@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-23T06:40:28.122811-04:00",
+  "generated_at": "2026-10-23T07:41:31.786664-04:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-10-23T06:39:36.728353-04:00",
+      "last_success": "2026-10-23T07:40:42.108021-04:00",
       "error": null,
       "count": 3
     },
@@ -13,7 +13,7 @@
       "key": "rioc",
       "label": "RIOC",
       "status": "fresh",
-      "last_success": "2026-10-23T06:40:06.087185-04:00",
+      "last_success": "2026-10-23T07:41:09.893999-04:00",
       "error": null,
       "count": 1
     },
@@ -21,7 +21,7 @@
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-10-23T06:40:28.104971-04:00",
+      "last_success": "2026-10-23T07:41:31.770513-04:00",
       "error": null,
       "count": 1
     }
@@ -2381,8 +2381,8 @@
                 "href": null
               },
               "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/963745"
+                "status": "booked",
+                "href": null
               },
               "3:00 p.m.": {
                 "status": "booked",
@@ -2768,7 +2768,7 @@
               }
             }
           },
-          "available_count": 1
+          "available_count": 0
         },
         {
           "date": "2026-10-30",
@@ -3719,8 +3719,8 @@
                 "href": null
               },
               "8:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/965313"
+                "status": "booked",
+                "href": null
               },
               "9:00 a.m.": {
                 "status": "booked",
@@ -4130,7 +4130,7 @@
               }
             }
           },
-          "available_count": 1
+          "available_count": 0
         },
         {
           "date": "2026-11-02",
@@ -4477,8 +4477,8 @@
                 "href": null
               },
               "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/965593"
+                "status": "unavailable",
+                "href": null
               },
               "3:00 p.m.": {
                 "status": "available",
@@ -4584,7 +4584,7 @@
               }
             }
           },
-          "available_count": 25
+          "available_count": 24
         },
         {
           "date": "2026-11-03",
@@ -13211,14 +13211,468 @@
             }
           },
           "available_count": 0
+        },
+        {
+          "date": "2026-11-22",
+          "label": "Sunday, November 22, 2026",
+          "times": [
+            "6:00 a.m.",
+            "7:00 a.m.",
+            "8:00 a.m.",
+            "9:00 a.m.",
+            "10:00 a.m.",
+            "11:00 a.m.",
+            "12:00 p.m.",
+            "1:00 p.m.",
+            "2:00 p.m.",
+            "3:00 p.m.",
+            "4:00 p.m.",
+            "5:00 p.m.",
+            "6:00 p.m.",
+            "7:00 p.m.",
+            "8:00 p.m.",
+            "9:00 p.m.",
+            "10:00 p.m."
+          ],
+          "courts": [
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+          ],
+          "grid": {
+            "19": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "11:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "12:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "1:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "2:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "3:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "4:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "20": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "11:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "12:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "1:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "2:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "3:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "4:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "21": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "11:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "12:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "1:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "2:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "3:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "4:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "22": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "11:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "12:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "1:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "2:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "3:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "4:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "23": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "11:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "12:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "1:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "2:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "3:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "4:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            },
+            "24": {
+              "6:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "11:00 a.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "12:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "1:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "2:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "3:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "4:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "5:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "6:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "7:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "8:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "9:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              },
+              "10:00 p.m.": {
+                "status": "unavailable",
+                "href": null
+              }
+            }
+          },
+          "available_count": 0
         }
       ],
-      "available_total": 126,
+      "available_total": 123,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-23T06:39:36.728353-04:00",
+      "updated_at": "2026-10-23T07:40:42.108021-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -13790,8 +14244,8 @@
                 "href": null
               },
               "9:00 a.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/714941"
+                "status": "booked",
+                "href": null
               },
               "10:00 a.m.": {
                 "status": "booked",
@@ -13917,7 +14371,7 @@
               }
             }
           },
-          "available_count": 5
+          "available_count": 4
         },
         {
           "date": "2026-10-28",
@@ -14430,12 +14884,12 @@
           "available_count": 11
         }
       ],
-      "available_total": 36,
+      "available_total": 35,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-23T06:39:36.728353-04:00",
+      "updated_at": "2026-10-23T07:40:42.108021-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
@@ -15259,8 +15713,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/716045"
               },
               "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/716047"
+                "status": "unavailable",
+                "href": null
               },
               "1:00 p.m.": {
                 "status": "available",
@@ -15304,7 +15758,7 @@
               }
             }
           },
-          "available_count": 12
+          "available_count": 11
         },
         {
           "date": "2026-10-29",
@@ -15647,12 +16101,12 @@
           "available_count": 15
         }
       ],
-      "available_total": 61,
+      "available_total": 60,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-10-23T06:39:36.728353-04:00",
+      "updated_at": "2026-10-23T07:40:42.108021-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
@@ -15946,8 +16400,8 @@
                 "href": null
               },
               "8:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "9:00 PM": {
                 "status": "available",
@@ -15956,8 +16410,8 @@
             },
             "5": {
               "7:00 AM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "8:00 AM": {
                 "status": "booked",
@@ -16004,8 +16458,8 @@
                 "href": null
               },
               "7:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "8:00 PM": {
                 "status": "available",
@@ -16038,8 +16492,8 @@
                 "href": null
               },
               "12:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "1:00 PM": {
                 "status": "booked",
@@ -16079,7 +16533,7 @@
               }
             }
           },
-          "available_count": 7
+          "available_count": 11
         },
         {
           "date": "2026-10-25",
@@ -16890,12 +17344,12 @@
           "available_count": 81
         }
       ],
-      "available_total": 169,
+      "available_total": 173,
       "book_kind": "facility",
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-10-23T06:40:06.087185-04:00",
+      "updated_at": "2026-10-23T07:41:09.893999-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
@@ -17272,20 +17726,20 @@
                 "href": null
               },
               "8:00 AM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "8:30 AM": {
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+              },
+              "9:00 AM": {
                 "status": "booked",
                 "href": null
               },
-              "9:00 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
-              },
               "9:30 AM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "10:00 AM": {
                 "status": "booked",
@@ -18230,12 +18684,12 @@
                 "href": null
               },
               "7:00 AM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "7:30 AM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "8:00 AM": {
                 "status": "booked",
@@ -18497,7 +18951,7 @@
               }
             }
           },
-          "available_count": 68
+          "available_count": 70
         },
         {
           "date": "2026-10-24",
@@ -18812,12 +19266,12 @@
                 "href": null
               },
               "9:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "9:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "10:00 PM": {
                 "status": "available",
@@ -18942,12 +19396,12 @@
                 "href": null
               },
               "8:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "8:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "9:00 PM": {
                 "status": "booked",
@@ -20071,7 +20525,7 @@
               }
             }
           },
-          "available_count": 110
+          "available_count": 106
         },
         {
           "date": "2026-10-25",
@@ -21648,12 +22102,12 @@
           "available_count": 54
         }
       ],
-      "available_total": 232,
+      "available_total": 230,
       "book_kind": "facility",
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-10-23T06:40:28.104971-04:00",
+      "updated_at": "2026-10-23T07:41:31.770513-04:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
