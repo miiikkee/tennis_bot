@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-02T22:05:18.909488-05:00",
+  "generated_at": "2026-11-02T23:28:52.689594-05:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
-      "status": "stale",
-      "last_success": "2026-11-02T17:39:11.504206-05:00",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "status": "fresh",
+      "last_success": "2026-11-02T23:10:18.700898-05:00",
+      "error": null,
       "count": 3
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "stale",
-      "last_success": "2026-11-02T17:40:16.100221-05:00",
-      "error": "APIRequestContext.get: getaddrinfo ENOTFOUND rioc.civicpermits.com\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.1778312578.1793631873; _gid=GA1.2.702563067.1793631873; .ASPXAUTH=AE96DCFF5DB2B71EEAE17CE7835C0061E38E66CA7AE889D7109E707462A24A02EB192E469B8434C37151A448D54F4F923E8D303EBA832E290FB28F44012149167C36C92787D4F0BC19AD1FDA72AA49B07A55EE809AD560920A4410FF088A9B909A6115E0C8C8DE4DE9D31FA8B84A39053A19D5BC824AE19AD1E194CA1EB7CCBEE9E7684C; _ga_7PNE7C8PW6=GS2.2.s1793631873$o1$g1$t1793631875$j58$l0$h0\n",
+      "status": "fresh",
+      "last_success": "2026-11-02T23:10:52.809658-05:00",
+      "error": null,
       "count": 1
     },
     {
@@ -22,7 +22,7 @@
       "label": "Prospect Park",
       "status": "stale",
       "last_success": "2026-11-02T17:40:40.476707-05:00",
-      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
+      "error": "BrowserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/lileming/Library/Caches/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/jb/1chqf0qj1nxffgjq6956bdnm0000gn/T/playwright_chromiumdev_profile-zYr5Aq --remote-debugging-pipe --no-startup-window\n  - <launched> pid=28822\n",
       "count": 1
     }
   ],
@@ -177,8 +177,8 @@
                 "href": null
               },
               "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/981581"
+                "status": "booked",
+                "href": null
               },
               "2:00 p.m.": {
                 "status": "booked",
@@ -243,12 +243,12 @@
                 "href": null
               },
               "12:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/965471"
+                "status": "booked",
+                "href": null
               },
               "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reservecp/981649"
+                "status": "booked",
+                "href": null
               },
               "2:00 p.m.": {
                 "status": "booked",
@@ -498,7 +498,7 @@
               }
             }
           },
-          "available_count": 8
+          "available_count": 5
         },
         {
           "date": "2026-11-04",
@@ -13667,13 +13667,13 @@
           "available_count": 0
         }
       ],
-      "available_total": 11,
+      "available_total": 8,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-11-02T17:39:11.504206-05:00",
-      "stale": true,
+      "updated_at": "2026-11-02T23:10:18.700898-05:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
       "lng": -73.9616
@@ -13920,8 +13920,8 @@
                 "href": "https://www.nycgovparks.org/tennisreservation/reserve/715139"
               },
               "1:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/715141"
+                "status": "booked",
+                "href": null
               },
               "2:00 p.m.": {
                 "status": "booked",
@@ -14031,7 +14031,7 @@
               }
             }
           },
-          "available_count": 6
+          "available_count": 5
         },
         {
           "date": "2026-11-05",
@@ -14849,8 +14849,8 @@
                 "href": null
               },
               "2:00 p.m.": {
-                "status": "available",
-                "href": "https://www.nycgovparks.org/tennisreservation/reserve/716615"
+                "status": "booked",
+                "href": null
               },
               "3:00 p.m.": {
                 "status": "available",
@@ -14886,16 +14886,16 @@
               }
             }
           },
-          "available_count": 12
+          "available_count": 11
         }
       ],
-      "available_total": 29,
+      "available_total": 27,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-11-02T17:39:11.504206-05:00",
-      "stale": true,
+      "updated_at": "2026-11-02T23:10:18.700898-05:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
       "lng": -73.9772
@@ -16111,8 +16111,8 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-11-02T17:39:11.504206-05:00",
-      "stale": true,
+      "updated_at": "2026-11-02T23:10:18.700898-05:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
       "lng": -73.966
@@ -17354,8 +17354,8 @@
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-11-02T17:40:16.100221-05:00",
-      "stale": true,
+      "updated_at": "2026-11-02T23:10:52.809658-05:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
