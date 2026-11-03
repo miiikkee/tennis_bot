@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-03T12:43:32.786117-05:00",
+  "generated_at": "2026-11-03T14:40:30.215309-05:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-11-03T12:42:11.817674-05:00",
-      "error": null,
+      "error": "timeout/",
       "count": 3
     },
     {
       "key": "rioc",
       "label": "RIOC",
       "status": "fresh",
-      "last_success": "2026-11-03T12:43:08.621005-05:00",
+      "last_success": "2026-11-03T14:39:25.702529-05:00",
       "error": null,
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-11-03T12:43:32.765337-05:00",
-      "error": null,
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Main\", waiting until \"networkidle\"\n",
       "count": 1
     }
   ],
@@ -13673,7 +13673,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-11-03T12:42:11.817674-05:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.7896,
       "lng": -73.9616
@@ -14895,7 +14895,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-11-03T12:42:11.817674-05:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.796,
       "lng": -73.9772
@@ -16112,7 +16112,7 @@
       "region": "Manhattan",
       "source": "nycparks",
       "updated_at": "2026-11-03T12:42:11.817674-05:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.811,
       "lng": -73.966
@@ -16599,8 +16599,8 @@
                 "href": "https://rioc.civicpermits.com"
               },
               "2:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "3:00 PM": {
                 "status": "booked",
@@ -16942,7 +16942,7 @@
               }
             }
           },
-          "available_count": 23
+          "available_count": 22
         },
         {
           "date": "2026-11-06",
@@ -17349,12 +17349,12 @@
           "available_count": 81
         }
       ],
-      "available_total": 108,
+      "available_total": 107,
       "book_kind": "facility",
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-11-03T12:43:08.621005-05:00",
+      "updated_at": "2026-11-03T14:39:25.702529-05:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
@@ -22113,7 +22113,7 @@
       "region": "Brooklyn",
       "source": "prospect",
       "updated_at": "2026-11-03T12:43:32.765337-05:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
