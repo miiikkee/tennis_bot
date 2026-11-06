@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T12:12:21.848650-05:00",
+  "generated_at": "2026-11-06T13:14:21.324124-05:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-11-06T12:10:58.548389-05:00",
+      "last_success": "2026-11-06T13:12:34.077134-05:00",
       "error": null,
       "count": 3
     },
@@ -13,7 +13,7 @@
       "key": "rioc",
       "label": "RIOC",
       "status": "fresh",
-      "last_success": "2026-11-06T12:12:00.756125-05:00",
+      "last_success": "2026-11-06T13:14:00.261753-05:00",
       "error": null,
       "count": 1
     },
@@ -21,7 +21,7 @@
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-11-06T12:12:21.836024-05:00",
+      "last_success": "2026-11-06T13:14:21.300885-05:00",
       "error": null,
       "count": 1
     }
@@ -13672,7 +13672,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-11-06T12:10:58.548389-05:00",
+      "updated_at": "2026-11-06T13:12:34.077134-05:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.7896,
@@ -14675,8 +14675,8 @@
                 "href": null
               },
               "1:00 p.m.": {
-                "status": "unavailable",
-                "href": null
+                "status": "available",
+                "href": "https://www.nycgovparks.org/tennisreservation/reserve/716665"
               },
               "2:00 p.m.": {
                 "status": "booked",
@@ -14716,7 +14716,7 @@
               }
             }
           },
-          "available_count": 5
+          "available_count": 6
         },
         {
           "date": "2026-11-13",
@@ -14889,12 +14889,12 @@
           "available_count": 4
         }
       ],
-      "available_total": 23,
+      "available_total": 24,
       "book_kind": "slot",
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-11-06T12:10:58.548389-05:00",
+      "updated_at": "2026-11-06T13:12:34.077134-05:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.796,
@@ -16111,7 +16111,7 @@
       "site": "NYC Parks",
       "region": "Manhattan",
       "source": "nycparks",
-      "updated_at": "2026-11-06T12:10:58.548389-05:00",
+      "updated_at": "2026-11-06T13:12:34.077134-05:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.811,
@@ -16467,8 +16467,8 @@
                 "href": null
               },
               "8:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://rioc.civicpermits.com"
               },
               "9:00 PM": {
                 "status": "available",
@@ -16538,7 +16538,7 @@
               }
             }
           },
-          "available_count": 3
+          "available_count": 4
         },
         {
           "date": "2026-11-08",
@@ -16871,8 +16871,8 @@
                 "href": null
               },
               "8:00 PM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "9:00 PM": {
                 "status": "available",
@@ -16942,7 +16942,7 @@
               }
             }
           },
-          "available_count": 7
+          "available_count": 6
         },
         {
           "date": "2026-11-09",
@@ -17235,8 +17235,8 @@
                 "href": null
               },
               "10:00 AM": {
-                "status": "available",
-                "href": "https://rioc.civicpermits.com"
+                "status": "booked",
+                "href": null
               },
               "11:00 AM": {
                 "status": "available",
@@ -17346,15 +17346,15 @@
               }
             }
           },
-          "available_count": 22
+          "available_count": 21
         }
       ],
-      "available_total": 32,
+      "available_total": 31,
       "book_kind": "facility",
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-11-06T12:12:00.756125-05:00",
+      "updated_at": "2026-11-06T13:14:00.261753-05:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
@@ -17763,12 +17763,12 @@
                 "href": null
               },
               "12:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "12:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "1:00 PM": {
                 "status": "booked",
@@ -17843,12 +17843,12 @@
                 "href": null
               },
               "10:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               }
             },
             "Clay: Court 1b": {
@@ -19555,12 +19555,12 @@
                 "href": null
               },
               "10:00 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               },
               "10:30 PM": {
-                "status": "available",
-                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
+                "status": "booked",
+                "href": null
               }
             },
             "Clay: Court 2b": {
@@ -20530,7 +20530,7 @@
               }
             }
           },
-          "available_count": 28
+          "available_count": 26
         },
         {
           "date": "2026-11-08",
@@ -22107,12 +22107,12 @@
           "available_count": 42
         }
       ],
-      "available_total": 87,
+      "available_total": 85,
       "book_kind": "facility",
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-11-06T12:12:21.836024-05:00",
+      "updated_at": "2026-11-06T13:14:21.300885-05:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
