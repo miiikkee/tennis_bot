@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-15T12:53:33.702604-05:00",
+  "generated_at": "2026-11-15T13:54:33.669210-05:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
       "status": "fresh",
-      "last_success": "2026-11-15T12:44:50.892554-05:00",
+      "last_success": "2026-11-15T13:53:41.373536-05:00",
       "error": null,
       "count": 0
     },
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "stale",
-      "last_success": "2026-11-15T11:31:17.951065-05:00",
-      "error": "APIRequestContext.post: read ECONNRESET\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.346429524.1794705739; _gid=GA1.2.1233778721.1794705739; .ASPXAUTH=B4FBFDD788A57E88AC7155C5AE15E1D02C7F4127A46B312488FF1FE726800C2D941AC0E42DF1C47733B5708F35AC968DD5969AB22D1B76413954CB27F02CE65B298A567EE8AE5312CBD295C348F1D1827A12E05C068FB641FF907FB0F836BD496DEC4556BB2DA2B941414920553F115046B20229D37FEE85CC90551AFFE4EE99A82F6086; _ga_7PNE7C8PW6=GS2.2.s1794705740$o1$g1$t1794705742$j58$l0$h0\n",
+      "status": "fresh",
+      "last_success": "2026-11-15T13:54:10.937220-05:00",
+      "error": null,
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-11-15T12:53:33.686336-05:00",
+      "last_success": "2026-11-15T13:54:33.646663-05:00",
       "error": null,
       "count": 1
     }
@@ -1264,8 +1264,8 @@
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-11-15T11:31:17.951065-05:00",
-      "stale": true,
+      "updated_at": "2026-11-15T13:54:10.937220-05:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -1689,12 +1689,12 @@
                 "href": null
               },
               "2:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "2:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "3:00 PM": {
                 "status": "booked",
@@ -2866,7 +2866,7 @@
               }
             }
           },
-          "available_count": 22
+          "available_count": 24
         },
         {
           "date": "2026-11-16",
@@ -3385,12 +3385,12 @@
                 "href": null
               },
               "12:00 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "12:30 PM": {
-                "status": "booked",
-                "href": null
+                "status": "available",
+                "href": "https://prospectpark.aptussoft.com/Member/Aptus/Main"
               },
               "1:00 PM": {
                 "status": "booked",
@@ -4440,7 +4440,7 @@
               }
             }
           },
-          "available_count": 28
+          "available_count": 30
         },
         {
           "date": "2026-11-17",
@@ -6017,12 +6017,12 @@
           "available_count": 18
         }
       ],
-      "available_total": 68,
+      "available_total": 72,
       "book_kind": "facility",
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-11-15T12:53:33.686336-05:00",
+      "updated_at": "2026-11-15T13:54:33.646663-05:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
