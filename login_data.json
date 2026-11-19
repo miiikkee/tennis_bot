@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T04:19:35.955397-05:00",
+  "generated_at": "2026-11-19T05:20:42.863605-05:00",
   "sources": [
     {
       "key": "nycparks",
@@ -12,16 +12,16 @@
     {
       "key": "rioc",
       "label": "RIOC",
-      "status": "stale",
-      "last_success": "2026-11-19T02:09:02.257397-05:00",
-      "error": "APIRequestContext.post: read ECONNRESET\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.1876064750.1795052640; _gid=GA1.2.1162914121.1795052640; .ASPXAUTH=606E0BAC0F21E20B57A7AF2CD20802B3779982433D491E2CEB78E7BF6F15BC2AEB80E0CDF50BBB8EC12C9764B7C3BB5DB76DBD9537FAF69177B865F91399DA293902C5701A35ED2298BE0573C772B54DAD53CB2A4E23E67C6F404DCE318893E111E8FABDBB6D086FD6DB15DAFB04FA8D2D148EFCE7B4BADC9F8E4B61F81002C0305DF120; _ga_7PNE7C8PW6=GS2.2.s1795052640$o1$g1$t1795052642$j58$l0$h0\n",
+      "status": "fresh",
+      "last_success": "2026-11-19T05:20:17.511092-05:00",
+      "error": null,
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
       "status": "fresh",
-      "last_success": "2026-11-19T04:19:35.939969-05:00",
+      "last_success": "2026-11-19T05:20:42.840885-05:00",
       "error": null,
       "count": 1
     }
@@ -1264,8 +1264,8 @@
       "site": "RIOC",
       "region": "Roosevelt Island",
       "source": "rioc",
-      "updated_at": "2026-11-19T02:09:02.257397-05:00",
-      "stale": true,
+      "updated_at": "2026-11-19T05:20:17.511092-05:00",
+      "stale": false,
       "default_type": "Outdoor",
       "lat": 40.762,
       "lng": -73.949
@@ -6022,7 +6022,7 @@
       "site": "Prospect",
       "region": "Brooklyn",
       "source": "prospect",
-      "updated_at": "2026-11-19T04:19:35.939969-05:00",
+      "updated_at": "2026-11-19T05:20:42.840885-05:00",
       "stale": false,
       "default_type": "Outdoor",
       "lat": 40.654,
