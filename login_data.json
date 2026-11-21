@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-20T10:02:34.614520-05:00",
+  "generated_at": "2026-11-21T08:45:52.744539-05:00",
   "sources": [
     {
       "key": "nycparks",
       "label": "NYC Parks",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-11-20T10:01:35.736461-05:00",
-      "error": null,
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
       "count": 0
     },
     {
@@ -14,15 +14,15 @@
       "label": "RIOC",
       "status": "stale",
       "last_success": "2026-11-20T02:18:45.375440-05:00",
-      "error": "APIRequestContext.post: read ECONNRESET\nCall log:\n  - → POST https://rioc.civicpermits.com/Permits/ConflictCheck\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - Content-Type: application/json; charset=utf-8\n    - content-length: 1079\n    - cookie: _ga=GA1.2.1876064750.1795052640; .ASPXAUTH=78332B81B7BA1AACF45828D152189DDF9CF456536D063EC0D858BF3E88605ACBED14858003D23AE0DCF5A934BEAFA4F3D5DDCA4446E36EDE23DEB3268CD7A78D68BD3E6F0907ACBDEBF02F7227B3DECDF669B17AB4CAE8EB8875F39DFC7FC0E9202BA95D4543DF1B509715FBCFDE4B5CA721F256783388EF22F693C45BAC717DE8FEFA7E; _ga_7PNE7C8PW6=GS2.2.s1795052640$o1$g1$t1795052642$j58$l0$h0\n",
+      "error": "APIRequestContext.get: getaddrinfo ENOTFOUND rioc.civicpermits.com\nCall log:\n  - → GET https://rioc.civicpermits.com/Permits/Facilities/3c9230f0-9e2c-4ff0-8ad7-5300eb475af5\n    - user-agent: Playwright/1.58.0 (arm64; macOS 26.3) python/3.12\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga=GA1.2.1876064750.1795052640; _ga_7PNE7C8PW6=GS2.2.s1795052640$o1$g1$t1795052642$j58$l0$h0\n",
       "count": 1
     },
     {
       "key": "prospect",
       "label": "Prospect Park",
-      "status": "fresh",
+      "status": "stale",
       "last_success": "2026-11-20T10:02:34.594184-05:00",
-      "error": null,
+      "error": "Page.goto: net::ERR_INTERNET_DISCONNECTED at https://prospectpark.aptussoft.com/Member/Aptus/Calender\nCall log:\n  - navigating to \"https://prospectpark.aptussoft.com/Member/Aptus/Calender\", waiting until \"networkidle\"\n",
       "count": 1
     }
   ],
@@ -6023,7 +6023,7 @@
       "region": "Brooklyn",
       "source": "prospect",
       "updated_at": "2026-11-20T10:02:34.594184-05:00",
-      "stale": false,
+      "stale": true,
       "default_type": "Outdoor",
       "lat": 40.654,
       "lng": -73.962
